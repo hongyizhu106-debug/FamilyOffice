@@ -1,0 +1,6 @@
+target=D:\RowData\Step1\Rubbish\NO.TEST-STEP3-STEP4.html
+exists=True
+is_file=True
+is_dir=False
+delete=ok
+exists_after=False

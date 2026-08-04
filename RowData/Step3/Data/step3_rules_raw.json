@@ -1,0 +1,3315 @@
+{
+  "source": "D:\\RowData\\Step3\\Data\\step3_core_blocks.jsonl",
+  "blocks": [
+    {
+      "id": "1-1.3-核心策略体系",
+      "major": "1",
+      "num": "1.3",
+      "title": "核心策略体系",
+      "kind": "num",
+      "start_line": 269,
+      "end_line": 271,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.4-内在逻辑与归因地位",
+      "major": "1",
+      "num": "1.4",
+      "title": "内在逻辑与归因地位",
+      "kind": "num",
+      "start_line": 272,
+      "end_line": 278,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.5-在双层归因框架中的特殊地位",
+      "major": "1",
+      "num": "1.5",
+      "title": "在双层归因框架中的特殊地位",
+      "kind": "num",
+      "start_line": 279,
+      "end_line": 281,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.3-八维状态模型增强归因标记",
+      "major": "1",
+      "num": "1.3",
+      "title": "八维状态模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 469,
+      "end_line": 640,
+      "roles": [
+        "D-Det",
+        "A-Amp"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        ">2小时",
+        "<80%",
+        "≥30%",
+        "≥1",
+        "<90%",
+        "<100%",
+        "<75分",
+        "<60分",
+        "≥5分",
+        "<50%",
+        "≥2",
+        "≥15"
+      ],
+      "bullet_candidates": [
+        "• 顶级医",
+        "• 决策偏",
+        "• 创始人/",
+        "• 应急管",
+        "• 价值观",
+        "• 舆论舆",
+        "• 战略决",
+        "• 价值观",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "1-1.4-监测预警体系",
+      "major": "1",
+      "num": "1.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 641,
+      "end_line": 678,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.5-主动防御策略增强归因导向",
+      "major": "1",
+      "num": "1.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 679,
+      "end_line": 689,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.6-核心传导路径与共振风险增强归因分析",
+      "major": "1",
+      "num": "1.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 791,
+      "end_line": 807,
+      "roles": [],
+      "edges": [
+        {
+          "src": "人物",
+          "dst": "权力/决策",
+          "src_detail": "失智",
+          "dst_detail": "战略误判",
+          "k": [],
+          "multipliers": [],
+          "context": "1.6 核心传导路径与共振风险（增强归因分析）\n主要传导路径（按归因方向分类）\n传导路径\n传导\n模式\n传导系数\n(K)\n起点角色\n终点\n角色\n归因层级变化\n典型场景\n人物作为根源性初始点（R-\nInit）\n人物奇点（失智）→ 决策奇点\n（战略误判）\n线性"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.7-双层归因分析框架在人物奇点的应用",
+      "major": "1",
+      "num": "1.7",
+      "title": "双层归因分析框架在人物奇点的应用",
+      "kind": "num",
+      "start_line": 970,
+      "end_line": 970,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.7.1-归因分析流程",
+      "major": "1",
+      "num": "1.7.1",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 971,
+      "end_line": 999,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.7.2-归因分析案例",
+      "major": "1",
+      "num": "1.7.2",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 1000,
+      "end_line": 1006,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "30%",
+        "90%"
+      ],
+      "bullet_candidates": [
+        "- 人物奇点：创始人突发中风（失能状态，风险值85）",
+        "- 时间奇点：交接班计划完成度30%（风险值75）",
+        "- 权力奇点：决策权集中度90%（风险值80）"
+      ]
+    },
+    {
+      "id": "1-1.8-正向韧性构建信任飞轮启动器增强归因视角",
+      "major": "1",
+      "num": "1.8",
+      "title": "正向韧性构建：信任飞轮启动器（增强归因视角）",
+      "kind": "num",
+      "start_line": 1049,
+      "end_line": 1098,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 信息共享度指数",
+        "• 信任度评分",
+        "• 授权范围变化率",
+        "• 学习投入时间",
+        "• 决策质量评分",
+        "• 能力匹配度指数",
+        "• 接班人准备度",
+        "• 知识传承完成率",
+        "• 系统依赖度降低率"
+      ]
+    },
+    {
+      "id": "1-1.1-三级传导结构增强归因视角",
+      "major": "1",
+      "num": "1.1",
+      "title": "三级传导结构（增强归因视角）",
+      "kind": "num",
+      "start_line": 5815,
+      "end_line": 5870,
+      "roles": [
+        "D-Det",
+        "R-Init",
+        "A-Amp",
+        "C-Con",
+        "A-Lock",
+        "T-Term"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.2-主要传导路径按双层归因分类",
+      "major": "1",
+      "num": "1.2",
+      "title": "主要传导路径（按双层归因分类）",
+      "kind": "num",
+      "start_line": 5894,
+      "end_line": 5894,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.2.1-第一层传导路径直接归因层",
+      "major": "1",
+      "num": "1.2.1",
+      "title": "第一层传导路径（直接归因层）",
+      "kind": "num",
+      "start_line": 5895,
+      "end_line": 5907,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.2.2-第二层传导路径根源归因层",
+      "major": "1",
+      "num": "1.2.2",
+      "title": "第二层传导路径（根源归因层）",
+      "kind": "num",
+      "start_line": 5939,
+      "end_line": 5953,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.2.3-跨层传导路径双层归因连接",
+      "major": "1",
+      "num": "1.2.3",
+      "title": "跨层传导路径（双层归因连接）",
+      "kind": "num",
+      "start_line": 5994,
+      "end_line": 6061,
+      "roles": [
+        "R-Init",
+        "D-Det"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.3-特殊传导效应融入归因角色",
+      "major": "1",
+      "num": "1.3",
+      "title": "特殊传导效应（融入归因角色）",
+      "kind": "num",
+      "start_line": 6062,
+      "end_line": 6062,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.4-传导网络的动态特性",
+      "major": "1",
+      "num": "1.4",
+      "title": "传导网络的动态特性",
+      "kind": "num",
+      "start_line": 6140,
+      "end_line": 6140,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.4.1-传导的时间维度",
+      "major": "1",
+      "num": "1.4.1",
+      "title": "传导的时间维度",
+      "kind": "num",
+      "start_line": 6141,
+      "end_line": 6151,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.4.2-传导的空间维度",
+      "major": "1",
+      "num": "1.4.2",
+      "title": "传导的空间维度",
+      "kind": "num",
+      "start_line": 6162,
+      "end_line": 6174,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "1-1.4.3-传导的方向性",
+      "major": "1",
+      "num": "1.4.3",
+      "title": "传导的方向性",
+      "kind": "num",
+      "start_line": 6175,
+      "end_line": 6189,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "1-1.5-传导逻辑模型的双层归因应用",
+      "major": "1",
+      "num": "1.5",
+      "title": "传导逻辑模型的双层归因应用",
+      "kind": "num",
+      "start_line": 6190,
+      "end_line": 6190,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.5.2-传导网络的可视化mermaid图示例",
+      "major": "1",
+      "num": "1.5.2",
+      "title": "传导网络的可视化（Mermaid图示例）",
+      "kind": "num",
+      "start_line": 6219,
+      "end_line": 6232,
+      "roles": [
+        "R-Init",
+        "A-Amp",
+        "D-Det",
+        "C-Con"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "1-1.6-传导逻辑模型的量化框架",
+      "major": "1",
+      "num": "1.6",
+      "title": "传导逻辑模型的量化框架",
+      "kind": "num",
+      "start_line": 6233,
+      "end_line": 6233,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.6.1-传导强度的计算公式",
+      "major": "1",
+      "num": "1.6.1",
+      "title": "传导强度的计算公式",
+      "kind": "num",
+      "start_line": 6234,
+      "end_line": 6241,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.6.2-双层归因的综合风险值",
+      "major": "1",
+      "num": "1.6.2",
+      "title": "双层归因的综合风险值",
+      "kind": "num",
+      "start_line": 6242,
+      "end_line": 6250,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "1-1.6.3-传导时间的估算模型",
+      "major": "1",
+      "num": "1.6.3",
+      "title": "传导时间的估算模型",
+      "kind": "num",
+      "start_line": 6251,
+      "end_line": 6257,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.3-核心策略体系",
+      "major": "2",
+      "num": "2.3",
+      "title": "核心策略体系",
+      "kind": "num",
+      "start_line": 289,
+      "end_line": 291,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.4-内在逻辑与归因地位",
+      "major": "2",
+      "num": "2.4",
+      "title": "内在逻辑与归因地位",
+      "kind": "num",
+      "start_line": 292,
+      "end_line": 302,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5-在双层归因框架中的特殊地位",
+      "major": "2",
+      "num": "2.5",
+      "title": "在双层归因框架中的特殊地位",
+      "kind": "num",
+      "start_line": 303,
+      "end_line": 307,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.3-四大崩溃维度增强归因标记",
+      "major": "2",
+      "num": "2.3",
+      "title": "四大崩溃维度（增强归因标记）",
+      "kind": "num",
+      "start_line": 1157,
+      "end_line": 1316,
+      "roles": [
+        "R-Init",
+        "A-Amp"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        "≥1.5",
+        "<75",
+        "<60%",
+        "<60分",
+        "<80%",
+        "<50%",
+        "<7分",
+        "<70%",
+        "≥10%",
+        "≥3%",
+        "<85%"
+      ],
+      "bullet_candidates": [
+        "• 新一代公开拒绝“家族",
+        "• 核心成员提出严重违背",
+        "• 在慈善、环保等价值观",
+        "• 价值观匹配度",
+        "• 价值观行为渗",
+        "• 祖训价值传承",
+        "• 家族内斗公开化、长期",
+        "• “情感账户”破产，成员",
+        "• 关键决策因互不信任而",
+        "• 情感账户净值",
+        "• 重大利益冲突",
+        "• 非正式沟通渠",
+        "• 家族引以为傲的创业史",
+        "• 家族身份认同模糊，被",
+        "• 祭祖、家族聚会等仪式",
+        "• Z世代文化认同",
+        "• 仪式情感共鸣",
+        "• 家族历史知晓",
+        "• 隐性家庭成员曝光、股",
+        "• 家族信托被击穿、法人",
+        "• 家族宪法被选择性执行",
+        "• 不承认既定决策程序的",
+        "• 宪法知晓与认",
+        "• 个人企业资产",
+        "• 股权代持合规",
+        "• 家族会议决议",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "2-2.4-监测预警体系",
+      "major": "2",
+      "num": "2.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 1317,
+      "end_line": 1351,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5-主动防御策略增强归因导向",
+      "major": "2",
+      "num": "2.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 1352,
+      "end_line": 1366,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.6-核心传导路径与共振风险增强归因分析",
+      "major": "2",
+      "num": "2.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 1458,
+      "end_line": 1458,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.6.1-认知文化奇点作为根源性初始点r-init的传导路径",
+      "major": "2",
+      "num": "2.6.1",
+      "title": "认知/文化奇点作为根源性初始点（R-Init）的传导路径",
+      "kind": "num",
+      "start_line": 1459,
+      "end_line": 1473,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [
+        {
+          "src": "认知/文化",
+          "dst": "权力/决策",
+          "src_detail": "价值认同崩溃",
+          "dst_detail": "战略分歧",
+          "k": [],
+          "multipliers": [],
+          "context": "2.6.1 认知/文化奇点作为根源性初始点（R-Init）的传导路径\n传导路径\n传导\n模式\n传导系数\n(K)\n起点\n角色\n终点角色\n归因层\n级变化\n典型场景\n认知奇点（价值认同崩溃）\n→ 决策奇点（战略分歧）\n线性"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.6.2-认知文化奇点作为核心放大器a-amp的传导路径",
+      "major": "2",
+      "num": "2.6.2",
+      "title": "认知/文化奇点作为核心放大器（A-Amp）的传导路径",
+      "kind": "num",
+      "start_line": 1508,
+      "end_line": 1547,
+      "roles": [
+        "A-Amp"
+      ],
+      "edges": [
+        {
+          "src": "财务",
+          "dst": "事件",
+          "src_detail": "流动性枯竭",
+          "dst_detail": "债权人诉讼",
+          "k": [],
+          "multipliers": [
+            1.5,
+            1.8,
+            1.6
+          ],
+          "context": "2.6.2 认知/文化奇点作为核心放大器（A-Amp）的传导路径\n\n\n==================== PAGE 16/88 ====================\n注：此类路径中，认知奇点不作为起点，而是作为传导过程中的效应放大器。\n原始传导路径\n加入认知放大器后的效应\n放大\n系数\n放大器作用点\n后果\n财务奇点（流动性枯竭）→\n事件奇点（债权人诉讼）\n信任纽带崩溃使内部无法\n团结应对，加速外部诉讼\n×1.5\n在财务→事件路径\n中叠加信任崩溃\n从可协商的债务危机\n演变为不可逆的法律\n清算\n人物奇点（失能）→ 权力\n奇点（真空）\n规则共识崩溃使应急授权\n机制失效，真空期延长\n×1.8\n在人物→权力路径\n中叠加规则混乱\n从有预案的权力过渡\n演变为无政府的混乱\n状态\n技术奇点（落后）→ 财务\n奇点（价值湮灭）\n价值认同崩溃使家族拒绝\n变革，错过技术转型窗口\n×1.6\n在技术→财务路径\n中叠加价值僵化\n从技术性落后演变为\n战略性淘汰"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.6.3-高危共振风险增强归因分析",
+      "major": "2",
+      "num": "2.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 1548,
+      "end_line": 1561,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7-双层归因分析框架在认知文化奇点的应用",
+      "major": "2",
+      "num": "2.7",
+      "title": "双层归因分析框架在认知/文化奇点的应用",
+      "kind": "num",
+      "start_line": 1625,
+      "end_line": 1625,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7.1-归因分析的特殊性",
+      "major": "2",
+      "num": "2.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 1626,
+      "end_line": 1627,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7.2-归因分析流程",
+      "major": "2",
+      "num": "2.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 1637,
+      "end_line": 1664,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7.3-归因分析案例",
+      "major": "2",
+      "num": "2.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 1665,
+      "end_line": 1673,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "35%",
+        "25%"
+      ],
+      "bullet_candidates": [
+        "- 事件奇点：法院冻结家族核心资产（风险值90，引爆点D-Det）",
+        "- 财务奇点：所有融资渠道关闭（风险值85）",
+        "- 认知/文化奇点监测数据："
+      ]
+    },
+    {
+      "id": "2-2.8-正向韧性构建沟通与学习飞轮增强归因视角",
+      "major": "2",
+      "num": "2.8",
+      "title": "正向韧性构建：沟通与学习飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 1721,
+      "end_line": 1771,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 正式会议召开频率",
+        "• 冲突议题解决率",
+        "• 沟通满意度评分",
+        "• 复盘会议召开率",
+        "• 经验文档化数量",
+        "• 同类错误重复发生",
+        "• 仪式参与率",
+        "• 仪式情感强度评分",
+        "• 年轻一代对仪式意"
+      ]
+    },
+    {
+      "id": "2-2.1-共振的定义与本质",
+      "major": "2",
+      "num": "2.1",
+      "title": "共振的定义与本质",
+      "kind": "num",
+      "start_line": 6295,
+      "end_line": 6295,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.1.1-共振的科学定义",
+      "major": "2",
+      "num": "2.1.1",
+      "title": "共振的科学定义",
+      "kind": "num",
+      "start_line": 6296,
+      "end_line": 6298,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        ">2"
+      ],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.1.2-共振的归因特征",
+      "major": "2",
+      "num": "2.1.2",
+      "title": "共振的归因特征",
+      "kind": "num",
+      "start_line": 6299,
+      "end_line": 6305,
+      "roles": [
+        "R-Init",
+        "D-Det",
+        "A-Amp"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "2-2.1.3-共振的数学表达",
+      "major": "2",
+      "num": "2.1.3",
+      "title": "共振的数学表达",
+      "kind": "num",
+      "start_line": 6306,
+      "end_line": 6316,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.2-致命共振组合按双层归因分类",
+      "major": "2",
+      "num": "2.2",
+      "title": "致命共振组合（按双层归因分类）",
+      "kind": "num",
+      "start_line": 6317,
+      "end_line": 6319,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.2.1-跨层致命共振第一层与第二层共振",
+      "major": "2",
+      "num": "2.2.1",
+      "title": "跨层致命共振（第一层与第二层共振）",
+      "kind": "num",
+      "start_line": 6320,
+      "end_line": 6331,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.2.2-同层致命共振同一归因层内共振",
+      "major": "2",
+      "num": "2.2.2",
+      "title": "同层致命共振（同一归因层内共振）",
+      "kind": "num",
+      "start_line": 6395,
+      "end_line": 6443,
+      "roles": [
+        "A-Lock",
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.3-共振强度公式的详细解释",
+      "major": "2",
+      "num": "2.3",
+      "title": "共振强度公式的详细解释",
+      "kind": "num",
+      "start_line": 6444,
+      "end_line": 6444,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.3.2-共振强度等级划分",
+      "major": "2",
+      "num": "2.3.2",
+      "title": "共振强度等级划分",
+      "kind": "num",
+      "start_line": 6491,
+      "end_line": 6500,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "< 0.3"
+      ],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.3.3-共振强度计算示例",
+      "major": "2",
+      "num": "2.3.3",
+      "title": "共振强度计算示例",
+      "kind": "num",
+      "start_line": 6513,
+      "end_line": 6536,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        ">1.0"
+      ],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "2-2.4-核心概念科学界定增强归因视角",
+      "major": "2",
+      "num": "2.4",
+      "title": "核心概念科学界定（增强归因视角）",
+      "kind": "num",
+      "start_line": 6537,
+      "end_line": 6626,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5-三类传导模式的完整参数与判定标准",
+      "major": "2",
+      "num": "2.5",
+      "title": "三类传导模式的完整参数与判定标准",
+      "kind": "num",
+      "start_line": 6694,
+      "end_line": 6694,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5.1-线性传导",
+      "major": "2",
+      "num": "2.5.1",
+      "title": "线性传导",
+      "kind": "num",
+      "start_line": 6695,
+      "end_line": 6702,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5.2-非线性传导",
+      "major": "2",
+      "num": "2.5.2",
+      "title": "非线性传导",
+      "kind": "num",
+      "start_line": 6717,
+      "end_line": 6725,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.5.3-突变传导",
+      "major": "2",
+      "num": "2.5.3",
+      "title": "突变传导",
+      "kind": "num",
+      "start_line": 6740,
+      "end_line": 6749,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.6-核心传导链路总表含模式系数治理",
+      "major": "2",
+      "num": "2.6",
+      "title": "核心传导链路总表（含模式、系数、治理）",
+      "kind": "num",
+      "start_line": 6764,
+      "end_line": 6786,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7-共振规则在双层归因框架中的特殊应用",
+      "major": "2",
+      "num": "2.7",
+      "title": "共振规则在双层归因框架中的特殊应用",
+      "kind": "num",
+      "start_line": 7036,
+      "end_line": 7036,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7.1-共振的归因诊断价值",
+      "major": "2",
+      "num": "2.7.1",
+      "title": "共振的归因诊断价值",
+      "kind": "num",
+      "start_line": 7037,
+      "end_line": 7043,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "2-2.7.2-共振的防御优先级",
+      "major": "2",
+      "num": "2.7.2",
+      "title": "共振的防御优先级",
+      "kind": "num",
+      "start_line": 7044,
+      "end_line": 7048,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "2-2.7.3-共振的学习价值",
+      "major": "2",
+      "num": "2.7.3",
+      "title": "共振的学习价值",
+      "kind": "num",
+      "start_line": 7056,
+      "end_line": 7057,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.3-核心策略体系",
+      "major": "3",
+      "num": "3.3",
+      "title": "核心策略体系",
+      "kind": "num",
+      "start_line": 315,
+      "end_line": 317,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.4-内在逻辑与归因地位",
+      "major": "3",
+      "num": "3.4",
+      "title": "内在逻辑与归因地位",
+      "kind": "num",
+      "start_line": 318,
+      "end_line": 325,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.5-在双层归因框架中的特殊地位",
+      "major": "3",
+      "num": "3.5",
+      "title": "在双层归因框架中的特殊地位",
+      "kind": "num",
+      "start_line": 326,
+      "end_line": 328,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.3-五维决策偏差模型增强归因标记",
+      "major": "3",
+      "num": "3.3",
+      "title": "五维决策偏差模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 1849,
+      "end_line": 2054,
+      "roles": [
+        "D-Det"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        "<70分",
+        "<30%",
+        "<1次/年",
+        ">20%",
+        "<80%",
+        ">40%",
+        "<100%",
+        ">15%",
+        ">48",
+        "<70%",
+        "20%",
+        "15%"
+      ],
+      "bullet_candidates": [
+        "• 情怀绑架：基于个人情",
+        "• 技术盲点：在颠覆性技",
+        "• 市场幻觉：目前有信息",
+        "• 战略洞察力指数",
+        "• 外部专家顾问利用",
+        "• 战略复盘频率",
+        "• 过度集中：“所有鸡蛋",
+        "• 人才错配：核心人才被",
+        "• 现金流消耗：为维持旧",
+        "• “赌注”集中度（单",
+        "• 战略目标人才匹配",
+        "• 机会成本量化评估",
+        "• 创始人独裁：“一言",
+        "• 接班人权威不足：决策",
+        "• 委员会瘫痪：议而不",
+        "• 个人权威与制度权",
+        "• 重大决策反对意见",
+        "• 决策共识形成时间",
+        "• 过早投入：在技术/市",
+        "• 过迟投入：在市场格局",
+        "• 危机响应滞后：在危机",
+        "• 决策延迟成本评估",
+        "• 行业时机窗口指数",
+        "• 危机响应速度（信",
+        "• 忽略黑天鹅：完全忽略",
+        "• 过度规避风险：因害怕",
+        "• 锚定效应：基于过时信",
+        "• 风险矩阵完备性",
+        "• 风险偏好与决策一",
+        "• 历史预测准确率回",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.4-监测预警体系",
+      "major": "3",
+      "num": "3.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 2055,
+      "end_line": 2088,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.5-主动防御策略增强归因导向",
+      "major": "3",
+      "num": "3.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 2089,
+      "end_line": 2099,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.6-核心传导路径与共振风险增强归因分析",
+      "major": "3",
+      "num": "3.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 2178,
+      "end_line": 2178,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.6.1-权力决策奇点作为根源性初始点r-init的传导路径",
+      "major": "3",
+      "num": "3.6.1",
+      "title": "权力/决策奇点作为根源性初始点（R-Init）的传导路径",
+      "kind": "num",
+      "start_line": 2179,
+      "end_line": 2193,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [
+        {
+          "src": "权力/决策",
+          "dst": "财务",
+          "src_detail": "权力结构扭 曲",
+          "dst_detail": "资源配置失 衡",
+          "k": [],
+          "multipliers": [],
+          "context": "3.6.1 权力/决策奇点作为根源性初始点（R-Init）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角色\n归因层\n级变化\n典型场景\n权力/决策奇点（权力结构扭\n曲）→ 财务奇点（资源配置失\n衡）\n线性"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.6.2-权力决策奇点作为引爆点d-det的传导路径",
+      "major": "3",
+      "num": "3.6.2",
+      "title": "权力/决策奇点作为引爆点（D-Det）的传导路径",
+      "kind": "num",
+      "start_line": 2221,
+      "end_line": 2256,
+      "roles": [
+        "D-Det"
+      ],
+      "edges": [
+        {
+          "src": "权力/决策",
+          "dst": "财务",
+          "src_detail": "战略方向误判",
+          "dst_detail": "巨额亏损",
+          "k": [
+            "K₁=0.78",
+            "K₂=1.56",
+            "Kₘ=1"
+          ],
+          "multipliers": [],
+          "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+        },
+        {
+          "src": "权力/决策",
+          "dst": "时间",
+          "src_detail": "时机把握失衡",
+          "dst_detail": "窗口关闭",
+          "k": [
+            "Kₘ=1"
+          ],
+          "multipliers": [],
+          "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+        },
+        {
+          "src": "权力/决策",
+          "dst": "技术",
+          "src_detail": "资源配置失衡",
+          "dst_detail": "研发停滞",
+          "k": [],
+          "multipliers": [],
+          "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.6.3-高危共振风险增强归因分析",
+      "major": "3",
+      "num": "3.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 2263,
+      "end_line": 2277,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.7-双层归因分析框架在权力决策奇点的应用",
+      "major": "3",
+      "num": "3.7",
+      "title": "双层归因分析框架在权力/决策奇点的应用",
+      "kind": "num",
+      "start_line": 2345,
+      "end_line": 2345,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.7.1-归因分析的特殊性",
+      "major": "3",
+      "num": "3.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 2346,
+      "end_line": 2347,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.7.2-归因分析流程",
+      "major": "3",
+      "num": "3.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 2354,
+      "end_line": 2381,
+      "roles": [
+        "D-Det",
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.7.3-归因分析案例",
+      "major": "3",
+      "num": "3.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 2382,
+      "end_line": 2390,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "40%",
+        "90%",
+        "0%"
+      ],
+      "bullet_candidates": [
+        "- 财务奇点：单一项目投资占家族总资产40%，项目濒临失败（风险值85，引爆点D-Det）",
+        "- 权力/决策奇点监测数据："
+      ]
+    },
+    {
+      "id": "3-3.8-正向韧性构建创新与迭代飞轮增强归因视角",
+      "major": "3",
+      "num": "3.8",
+      "title": "正向韧性构建：创新与迭代飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 2437,
+      "end_line": 2483,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 授权项目数量",
+        "• 创新项目成功率",
+        "• 新业务收入占比",
+        "• 决策调整频率（合理范",
+        "• 复盘会议质量评分",
+        "• 决策错误重复率下降",
+        "• 决策委员会参与度",
+        "• 不同意见采纳率",
+        "• 决策质量评分"
+      ]
+    },
+    {
+      "id": "3-3.1-传导模式的科学定义与分类",
+      "major": "3",
+      "num": "3.1",
+      "title": "传导模式的科学定义与分类",
+      "kind": "num",
+      "start_line": 7088,
+      "end_line": 7141,
+      "roles": [],
+      "edges": [
+        {
+          "src": "根源性",
+          "dst": "衍生性",
+          "src_detail": "",
+          "dst_detail": "",
+          "k": [
+            "K₂ = 2"
+          ],
+          "multipliers": [],
+          "context": "3.1 传导模式的科学定义与分类\n传导模式是描述风险在奇点之间扩散的动态行为模式。根据风险传导的速度、强度和可预测性，我们\n将传导模式分为三类：线性传导、非线性传导和突变传导。在双层归因框架下，每种传导模式都与特定的\n归因层级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100"
+        },
+        {
+          "src": "衍生性",
+          "dst": "衍生性",
+          "src_detail": "",
+          "dst_detail": "",
+          "k": [
+            "K₂ = 2"
+          ],
+          "multipliers": [],
+          "context": "3.1 传导模式的科学定义与分类\n传导模式是描述风险在奇点之间扩散的动态行为模式。根据风险传导的速度、强度和可预测性，我们\n将传导模式分为三类：线性传导、非线性传导和突变传导。在双层归因框架下，每种传导模式都与特定的\n归因层级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源"
+        },
+        {
+          "src": "衍生性",
+          "dst": "诱发性",
+          "src_detail": "",
+          "dst_detail": "",
+          "k": [],
+          "multipliers": [],
+          "context": "级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源性/衍生性奇\n点（外部冲击引爆内部风险）\n突发性、不可预\n测、干预窗口极\n\n\n==================== PAGE 68/88 ====================\n无预警时间。"
+        },
+        {
+          "src": "根源性",
+          "dst": "根源性",
+          "src_detail": "",
+          "dst_detail": "",
+          "k": [],
+          "multipliers": [],
+          "context": "型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源性/衍生性奇\n点（外部冲击引爆内部风险）\n突发性、不可预\n测、干预窗口极\n\n\n==================== PAGE 68/88 ====================\n无预警时间。"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.2-线性传导模式",
+      "major": "3",
+      "num": "3.2",
+      "title": "线性传导模式",
+      "kind": "num",
+      "start_line": 7147,
+      "end_line": 7147,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.2.3-线性传导的数学模型",
+      "major": "3",
+      "num": "3.2.3",
+      "title": "线性传导的数学模型",
+      "kind": "num",
+      "start_line": 7200,
+      "end_line": 7212,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.2.4-线性传导的归因角色标记",
+      "major": "3",
+      "num": "3.2.4",
+      "title": "线性传导的归因角色标记",
+      "kind": "num",
+      "start_line": 7213,
+      "end_line": 7225,
+      "roles": [
+        "R-Init",
+        "C-Con",
+        "D-Det",
+        "T-Term",
+        "A-Amp"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.2.5-线性传导的防御策略适配",
+      "major": "3",
+      "num": "3.2.5",
+      "title": "线性传导的防御策略适配",
+      "kind": "num",
+      "start_line": 7226,
+      "end_line": 7227,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.3-非线性传导模式",
+      "major": "3",
+      "num": "3.3",
+      "title": "非线性传导模式",
+      "kind": "num",
+      "start_line": 7234,
+      "end_line": 7234,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.3.3-非线性传导的数学模型",
+      "major": "3",
+      "num": "3.3.3",
+      "title": "非线性传导的数学模型",
+      "kind": "num",
+      "start_line": 7296,
+      "end_line": 7307,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.3.4-非线性传导的归因角色标记",
+      "major": "3",
+      "num": "3.3.4",
+      "title": "非线性传导的归因角色标记",
+      "kind": "num",
+      "start_line": 7308,
+      "end_line": 7321,
+      "roles": [
+        "D-Det",
+        "A-Lock",
+        "A-Amp",
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        "150%",
+        "<6",
+        "<60%"
+      ],
+      "bullet_candidates": [
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.3.5-非线性传导的防御策略适配",
+      "major": "3",
+      "num": "3.3.5",
+      "title": "非线性传导的防御策略适配",
+      "kind": "num",
+      "start_line": 7322,
+      "end_line": 7323,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.4-突变传导模式",
+      "major": "3",
+      "num": "3.4",
+      "title": "突变传导模式",
+      "kind": "num",
+      "start_line": 7333,
+      "end_line": 7333,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.4.3-突变传导的数学模型",
+      "major": "3",
+      "num": "3.4.3",
+      "title": "突变传导的数学模型",
+      "kind": "num",
+      "start_line": 7382,
+      "end_line": 7400,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.4.4-突变传导的归因角色标记",
+      "major": "3",
+      "num": "3.4.4",
+      "title": "突变传导的归因角色标记",
+      "kind": "num",
+      "start_line": 7401,
+      "end_line": 7412,
+      "roles": [
+        "D-Det",
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.4.5-突变传导的防御策略适配",
+      "major": "3",
+      "num": "3.4.5",
+      "title": "突变传导的防御策略适配",
+      "kind": "num",
+      "start_line": 7413,
+      "end_line": 7414,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.5-传导模式体系的综合应用",
+      "major": "3",
+      "num": "3.5",
+      "title": "传导模式体系的综合应用",
+      "kind": "num",
+      "start_line": 7423,
+      "end_line": 7423,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.5.1-传导模式识别流程",
+      "major": "3",
+      "num": "3.5.1",
+      "title": "传导模式识别流程",
+      "kind": "num",
+      "start_line": 7424,
+      "end_line": 7451,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.5.2-传导模式组合与复杂传导链",
+      "major": "3",
+      "num": "3.5.2",
+      "title": "传导模式组合与复杂传导链",
+      "kind": "num",
+      "start_line": 7452,
+      "end_line": 7464,
+      "roles": [
+        "R-Init",
+        "D-Det"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        "150%"
+      ],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.5.3-传导模式与双层归因的整合",
+      "major": "3",
+      "num": "3.5.3",
+      "title": "传导模式与双层归因的整合",
+      "kind": "num",
+      "start_line": 7465,
+      "end_line": 7472,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "3-3.6-传导模式体系的校准与优化",
+      "major": "3",
+      "num": "3.6",
+      "title": "传导模式体系的校准与优化",
+      "kind": "num",
+      "start_line": 7473,
+      "end_line": 7473,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "3-3.6.2-模型验证与优化",
+      "major": "3",
+      "num": "3.6.2",
+      "title": "模型验证与优化",
+      "kind": "num",
+      "start_line": 7484,
+      "end_line": 7485,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.1-主要传导路径由内向外风险的产生过程",
+      "major": "4",
+      "num": "4.1",
+      "title": "主要传导路径（由内向外）：风险的产生过程",
+      "kind": "num",
+      "start_line": 332,
+      "end_line": 335,
+      "roles": [],
+      "edges": [
+        {
+          "src": "根源性",
+          "dst": "衍生性",
+          "src_detail": "",
+          "dst_detail": "",
+          "k": [],
+          "multipliers": [],
+          "context": "4.1 主要传导路径（由内向外）：风险的产生过程\n根源性奇点 → 衍生性奇点 →（可能进一步触发）诱发性奇点\n示例：决策失误（权力/决策奇点）→ 财务亏损（财务奇点）→ 引发恶意收购（事件奇点）\n归因意义：这是风险从“病因”到“症状”再到“外部表现”的自然演化路径，是理解风险如何形成的正向逻辑。"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.4-双层归因分析的标准路径",
+      "major": "4",
+      "num": "4.4",
+      "title": "双层归因分析的标准路径",
+      "kind": "num",
+      "start_line": 346,
+      "end_line": 357,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.3-四维窗口模型增强归因标记",
+      "major": "4",
+      "num": "4.3",
+      "title": "四维窗口模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 2566,
+      "end_line": 2647,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        ">2年",
+        "<60%",
+        "<70分",
+        "15%"
+      ],
+      "bullet_candidates": [
+        "• 健康突变：创始人健康",
+        "• 能力错配：接班人因长",
+        "• 共识破裂：代际价值观",
+        "• 核心成员年龄/健",
+        "• 接班人“就绪度”",
+        "• 代际沟通机制有",
+        "• 技术跃迁：替代技术市",
+        "• 机会成本评估",
+        "• 市场固化：竞争对手完",
+        "• 政策定型：行业监管框",
+        "• 战略行动滞后周",
+        "• 技术/市场S曲线"
+      ]
+    },
+    {
+      "id": "4-4.4-监测预警体系",
+      "major": "4",
+      "num": "4.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 2747,
+      "end_line": 2782,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.5-主动防御策略增强归因导向",
+      "major": "4",
+      "num": "4.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 2783,
+      "end_line": 2796,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.6-核心传导路径与共振风险增强归因分析",
+      "major": "4",
+      "num": "4.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 2885,
+      "end_line": 2885,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.6.1-时间奇点作为锁死器a-lock和放大器a-amp的传导路径",
+      "major": "4",
+      "num": "4.6.1",
+      "title": "时间奇点作为锁死器（A-Lock）和放大器（A-Amp）的传导路径",
+      "kind": "num",
+      "start_line": 2886,
+      "end_line": 2942,
+      "roles": [
+        "A-Lock",
+        "A-Amp"
+      ],
+      "edges": [
+        {
+          "src": "权力/决策",
+          "dst": "财务",
+          "src_detail": "战略误判",
+          "dst_detail": "亏损",
+          "k": [],
+          "multipliers": [
+            2.0,
+            1.7,
+            1.5
+          ],
+          "context": "为锁死器（A-Lock）和放大器（A-Amp）的传导路径\n注：时间奇点很少作为传导起点，更多是作为传导过程中的情境放大器。\n原始传导路径\n加入时间放大/锁死效应后的变化\n放大/锁\n死系数\n时间窗\n口类型\n后果\n人物奇点（失能）→ 权力\n奇点（真空）\n如果发生在代际传承窗口关闭后，\n真空期将无限延长且无法填补\n×1.8（锁\n死）\n代际传\n承窗口\n从有预案的权力过渡\n演变为彻底的权力崩\n塌\n\n\n==================== PAGE 29/88 ====================\n决策奇点（战略误判）→\n财务奇点（亏损）\n如果发生在战略机遇窗口关闭后，\n亏损将不可挽回且无法通过新机会\n弥补\n×2.0（锁\n死）\n战略机\n遇窗口\n从一次投资失败演变\n为行业出局的永久性\n损失\n认知奇点（规则共识崩\n溃）→ 财务奇点（资产击\n穿）\n如果发生在资产重构窗口关闭后，\n将面临无法规避的法律惩罚和税负\n×1.7（放\n大）\n资产重\n构窗口\n从可修复的结构缺陷\n演变为毁灭性的财务\n损失\n人物奇点（失和）→ 认知\n奇点（信任崩溃）\n如果发生在关系修复窗口关闭后，\n冲突将永久化且不可调解\n×1.5（锁\n死）\n关系修\n复窗口\n从暂时矛盾"
+        },
+        {
+          "src": "认知/文化",
+          "dst": "财务",
+          "src_detail": "规则共识崩 溃",
+          "dst_detail": "资产击 穿",
+          "k": [],
+          "multipliers": [
+            1.7,
+            1.5
+          ],
+          "context": "口类型\n后果\n人物奇点（失能）→ 权力\n奇点（真空）\n如果发生在代际传承窗口关闭后，\n真空期将无限延长且无法填补\n×1.8（锁\n死）\n代际传\n承窗口\n从有预案的权力过渡\n演变为彻底的权力崩\n塌\n\n\n==================== PAGE 29/88 ====================\n决策奇点（战略误判）→\n财务奇点（亏损）\n如果发生在战略机遇窗口关闭后，\n亏损将不可挽回且无法通过新机会\n弥补\n×2.0（锁\n死）\n战略机\n遇窗口\n从一次投资失败演变\n为行业出局的永久性\n损失\n认知奇点（规则共识崩\n溃）→ 财务奇点（资产击\n穿）\n如果发生在资产重构窗口关闭后，\n将面临无法规避的法律惩罚和税负\n×1.7（放\n大）\n资产重\n构窗口\n从可修复的结构缺陷\n演变为毁灭性的财务\n损失\n人物奇点（失和）→ 认知\n奇点（信任崩溃）\n如果发生在关系修复窗口关闭后，\n冲突将永久化且不可调解\n×1.5（锁\n死）\n关系修\n复窗口\n从暂时矛盾演变为永\n久性家族分裂"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.6.2-时间奇点作为根源性初始点r-init的传导路径",
+      "major": "4",
+      "num": "4.6.2",
+      "title": "时间奇点作为根源性初始点（R-Init）的传导路径",
+      "kind": "num",
+      "start_line": 2943,
+      "end_line": 2967,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.6.3-高危共振风险增强归因分析",
+      "major": "4",
+      "num": "4.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 2985,
+      "end_line": 3004,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.7-双层归因分析框架在时间奇点的应用",
+      "major": "4",
+      "num": "4.7",
+      "title": "双层归因分析框架在时间奇点的应用",
+      "kind": "num",
+      "start_line": 3083,
+      "end_line": 3083,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.7.1-归因分析的特殊性",
+      "major": "4",
+      "num": "4.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 3084,
+      "end_line": 3085,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.7.2-归因分析流程",
+      "major": "4",
+      "num": "4.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 3092,
+      "end_line": 3112,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.7.3-归因分析案例",
+      "major": "4",
+      "num": "4.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 3113,
+      "end_line": 3122,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "- 事件奇点：CRS全面实施，家族海外资产完全透明（风险值85，引爆点D-Det）",
+        "- 财务奇点：面临巨额补税、罚款和潜在刑事风险（风险值90）",
+        "- 时间奇点监测数据："
+      ]
+    },
+    {
+      "id": "4-4.8-正向韧性构建前瞻性与敏捷性飞轮增强归因视角",
+      "major": "4",
+      "num": "4.8",
+      "title": "正向韧性构建：前瞻性与敏捷性飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 3170,
+      "end_line": 3221,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 预警准确率",
+        "• 预警响应时间",
+        "• 机会捕获数量",
+        "• 迭代速度（想法到测",
+        "• 小步试错项目数量",
+        "• 方向调整频率（合理",
+        "• 时间缓冲使用率",
+        "• 意外延迟应对成功率",
+        "• 项目准时完成率提升"
+      ]
+    },
+    {
+      "id": "4-4.1.2-双层归因网络建模的核心思想",
+      "major": "4",
+      "num": "4.1.2",
+      "title": "双层归因网络建模的核心思想",
+      "kind": "num",
+      "start_line": 7528,
+      "end_line": 7532,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.2-静态模型构建",
+      "major": "4",
+      "num": "4.2",
+      "title": "静态模型构建",
+      "kind": "num",
+      "start_line": 7533,
+      "end_line": 7533,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.3.2-风险传导仿真算法",
+      "major": "4",
+      "num": "4.3.2",
+      "title": "风险传导仿真算法",
+      "kind": "num",
+      "start_line": 7808,
+      "end_line": 7896,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.3.4-双层归因溯源算法",
+      "major": "4",
+      "num": "4.3.4",
+      "title": "双层归因溯源算法",
+      "kind": "num",
+      "start_line": 7979,
+      "end_line": 8079,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.4.3-传导路径脆弱性分析",
+      "major": "4",
+      "num": "4.4.3",
+      "title": "传导路径脆弱性分析",
+      "kind": "num",
+      "start_line": 8124,
+      "end_line": 8126,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.4.4-网络韧性评估指标",
+      "major": "4",
+      "num": "4.4.4",
+      "title": "网络韧性评估指标",
+      "kind": "num",
+      "start_line": 8133,
+      "end_line": 8149,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "20%",
+        ">70%",
+        "30%",
+        "<50%"
+      ],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.5-模型校准与验证",
+      "major": "4",
+      "num": "4.5",
+      "title": "模型校准与验证",
+      "kind": "num",
+      "start_line": 8165,
+      "end_line": 8165,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.5.2-模型验证指标",
+      "major": "4",
+      "num": "4.5.2",
+      "title": "模型验证指标",
+      "kind": "num",
+      "start_line": 8190,
+      "end_line": 8200,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        ">0.7",
+        "<30%"
+      ],
+      "bullet_candidates": []
+    },
+    {
+      "id": "4-4.5.3-模型持续优化机制",
+      "major": "4",
+      "num": "4.5.3",
+      "title": "模型持续优化机制",
+      "kind": "num",
+      "start_line": 8212,
+      "end_line": 8213,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.1-防御的必要在于根源",
+      "major": "5",
+      "num": "5.1",
+      "title": "防御的必要在于根源",
+      "kind": "num",
+      "start_line": 359,
+      "end_line": 361,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.2-防御的关键在于溯源",
+      "major": "5",
+      "num": "5.2",
+      "title": "防御的关键在于溯源",
+      "kind": "num",
+      "start_line": 362,
+      "end_line": 364,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.3-韧性的体现在于应对",
+      "major": "5",
+      "num": "5.3",
+      "title": "韧性的体现在于应对",
+      "kind": "num",
+      "start_line": 365,
+      "end_line": 367,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.4-归因驱动的防御资源分配",
+      "major": "5",
+      "num": "5.4",
+      "title": "归因驱动的防御资源分配",
+      "kind": "num",
+      "start_line": 368,
+      "end_line": 370,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "•"
+      ]
+    },
+    {
+      "id": "5-5.3-五维分类模型增强归因标记",
+      "major": "5",
+      "num": "5.3",
+      "title": "五维分类模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 3293,
+      "end_line": 3542,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "<3",
+        "<1.0",
+        ">90%",
+        "<3年",
+        ">20%",
+        "<1.5",
+        ">60%",
+        "≥2",
+        "≥10%",
+        ">50%",
+        "<70分"
+      ],
+      "bullet_candidates": [
+        "• 交叉违约：一笔债",
+        "• 挤兑恐慌：债权人",
+        "• 融资通道关闭：所",
+        "• 短期压力",
+        "• 速动比率",
+        "• 授信额度",
+        "• 技术过时：核心技",
+        "• 声誉破产：品牌因",
+        "• 政策摧毁：核心不",
+        "• 核心资产",
+        "• 资产技术",
+        "• 品牌价值",
+        "• 利息覆盖失守：利",
+        "• 担保链引爆：一家",
+        "• 信用评级崩溃：评",
+        "• 利息保障",
+        "• 总债务/总",
+        "• 信用评级",
+        "• 法人面纱刺破：因",
+        "• 信托被穿透：家族",
+        "• 表外风险显性化：",
+        "• 个人与企",
+        "• 表外担保",
+        "• 法律实体",
+        "• 风险溢价无限扩",
+        "• 资本渠道枯竭：传",
+        "• 资本配置持续为",
+        "• 加权平均",
+        "• 风险溢价",
+        "• 新增投资",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "5-5.4-监测预警体系",
+      "major": "5",
+      "num": "5.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 3543,
+      "end_line": 3577,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.5-主动防御策略增强归因导向",
+      "major": "5",
+      "num": "5.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 3578,
+      "end_line": 3590,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.6-核心传导路径与共振风险增强归因分析",
+      "major": "5",
+      "num": "5.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 3690,
+      "end_line": 3690,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.6.1-财务奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "5",
+      "num": "5.6.1",
+      "title": "财务奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "kind": "num",
+      "start_line": 3691,
+      "end_line": 3736,
+      "roles": [
+        "D-Det",
+        "T-Term"
+      ],
+      "edges": [
+        {
+          "src": "财务",
+          "dst": "认知/文化",
+          "src_detail": "资产价值湮灭",
+          "dst_detail": "信任破裂",
+          "k": [
+            "K₁=0.65",
+            "K₂=1.30",
+            "Kₘ=1"
+          ],
+          "multipliers": [],
+          "context": "5.6.1 财务奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点角\n色\n终点角\n色\n归因层\n级变化\n典型场景\n财务奇点（流动性枯竭）→ 事\n件奇点（债权人诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n无法支付到期债务，债\n权人立即起诉\n财务奇点（资产价值湮灭）→\n认知/文化奇点（信任破裂）\n非线\n性\nK₁=0.65;\nK₂=1.30\nT-\nTerm\nA-\nAmp\n1 → 2\n家族财富大幅缩水，成\n员相互指责，信任崩溃\n财务奇点（资产负债表击穿）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n个人资产被追索，核心\n\n\n==================== PAGE 36/88 ====================\n→ 人物奇点（失控）\n成员失去法律控制权"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.6.2-财务奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "5",
+      "num": "5.6.2",
+      "title": "财务奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "kind": "num",
+      "start_line": 3737,
+      "end_line": 3784,
+      "roles": [
+        "C-Con",
+        "A-Amp"
+      ],
+      "edges": [
+        {
+          "src": "权力/决策",
+          "dst": "技术",
+          "src_detail": "战略误判",
+          "dst_detail": "研发不足",
+          "k": [],
+          "multipliers": [
+            1.4,
+            1.6,
+            1.5
+          ],
+          "context": "5.6.2 财务奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径\n注：此类路径中，财务奇点通常不是起点，而是传导过程中的关键节点。\n原始传导路径\n加入财务放大/传导效应后\n的变化\n放大/传\n导系数\n财务奇点类\n型\n后果\n决策奇点（战略误判）→\n技术奇点（研发不足）\n财务资源紧张（传导通道）\n导致研发投入削减，技术落\n后加剧\n×1.4\n（传\n导）\n资本成本失\n控/流动性\n紧张\n从战略错误传导至技术落\n后，财务问题成为关键传\n导节点\n人物奇点（失能）→ 权力\n奇点（真空）\n财务危机（放大器）加剧权\n力争夺，真空期延长\n×1.6\n（放\n大）\n流动性枯竭\n/债务螺旋\n从个人健康问题演变为全\n面的财务和权力危机\n认知/文化奇点（规则共识\n崩溃）→ 事件奇点（监管\n打击）\n财务不合规（传导通道）为\n监管打击提供具体证据\n×1.5\n（传\n导）\n资产负债表\n击穿\n从文化"
+        },
+        {
+          "src": "认知/文化",
+          "dst": "事件",
+          "src_detail": "规则共识 崩溃",
+          "dst_detail": "监管 打击",
+          "k": [],
+          "multipliers": [
+            1.5
+          ],
+          "context": "导过程中的关键节点。\n原始传导路径\n加入财务放大/传导效应后\n的变化\n放大/传\n导系数\n财务奇点类\n型\n后果\n决策奇点（战略误判）→\n技术奇点（研发不足）\n财务资源紧张（传导通道）\n导致研发投入削减，技术落\n后加剧\n×1.4\n（传\n导）\n资本成本失\n控/流动性\n紧张\n从战略错误传导至技术落\n后，财务问题成为关键传\n导节点\n人物奇点（失能）→ 权力\n奇点（真空）\n财务危机（放大器）加剧权\n力争夺，真空期延长\n×1.6\n（放\n大）\n流动性枯竭\n/债务螺旋\n从个人健康问题演变为全\n面的财务和权力危机\n认知/文化奇点（规则共识\n崩溃）→ 事件奇点（监管\n打击）\n财务不合规（传导通道）为\n监管打击提供具体证据\n×1.5\n（传\n导）\n资产负债表\n击穿\n从文化缺陷传导至具体法\n律处罚，财务问题成为证\n据载体"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.6.3-高危共振风险增强归因分析",
+      "major": "5",
+      "num": "5.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 3785,
+      "end_line": 3799,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.7-双层归因分析框架在财务奇点的应用",
+      "major": "5",
+      "num": "5.7",
+      "title": "双层归因分析框架在财务奇点的应用",
+      "kind": "num",
+      "start_line": 3871,
+      "end_line": 3871,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.7.1-归因分析的特殊性",
+      "major": "5",
+      "num": "5.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 3872,
+      "end_line": 3876,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.7.2-归因分析流程",
+      "major": "5",
+      "num": "5.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 3883,
+      "end_line": 3908,
+      "roles": [
+        "D-Det",
+        "T-Term"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.7.3-归因分析案例",
+      "major": "5",
+      "num": "5.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 3909,
+      "end_line": 3918,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "70%",
+        "80%"
+      ],
+      "bullet_candidates": [
+        "- 财务奇点：并购标的业绩暴雷，估值缩水70%，触发对赌协议（风险值90，引爆点D-Det）",
+        "- 债务螺旋：利息保障倍数降至0.8，信用评级从AA下调至BB（风险值85）",
+        "- 权力/决策奇点监测数据："
+      ]
+    },
+    {
+      "id": "5-5.8-正向韧性构建流动性与反脆弱飞轮增强归因视角",
+      "major": "5",
+      "num": "5.8",
+      "title": "正向韧性构建：流动性与反脆弱飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 3967,
+      "end_line": 4027,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 流动性覆盖率",
+        "• 危机中投资回报",
+        "• 流动性策略遵守",
+        "• 资产关联度指数",
+        "• 组合波动率 vs 基",
+        "• 多元化收益贡献",
+        "• 资本回报率(ROIC)",
+        "• 资本配置错误率",
+        "• 长期复利增长率"
+      ]
+    },
+    {
+      "id": "5-5.1-防御体系的双层架构",
+      "major": "5",
+      "num": "5.1",
+      "title": "防御体系的双层架构",
+      "kind": "num",
+      "start_line": 8248,
+      "end_line": 8253,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.2-防御策略的三维矩阵",
+      "major": "5",
+      "num": "5.2",
+      "title": "防御策略的三维矩阵",
+      "kind": "num",
+      "start_line": 8265,
+      "end_line": 8278,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.3-七大奇点防御优先级",
+      "major": "5",
+      "num": "5.3",
+      "title": "七大奇点防御优先级",
+      "kind": "num",
+      "start_line": 8279,
+      "end_line": 8290,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.4-防御资源动态调配算法",
+      "major": "5",
+      "num": "5.4",
+      "title": "防御资源动态调配算法",
+      "kind": "num",
+      "start_line": 8316,
+      "end_line": 8338,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "5-5.5-防御效果评估体系",
+      "major": "5",
+      "num": "5.5",
+      "title": "防御效果评估体系",
+      "kind": "num",
+      "start_line": 8339,
+      "end_line": 8356,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "≥85%",
+        "≥70%",
+        "≥80%"
+      ],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.3-六维分类模型增强归因标记",
+      "major": "6",
+      "num": "6.3",
+      "title": "六维分类模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 4110,
+      "end_line": 4408,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [
+        "<95%",
+        "<5\n年",
+        "<100%",
+        "≥2",
+        ">50%",
+        ">15年",
+        "50%",
+        ">3年",
+        ">40%"
+      ],
+      "bullet_candidates": [
+        "• 人员依赖：唯一掌",
+        "• 文档缺失：关键技",
+        "• 传承失败：师徒制",
+        "• 技术依赖度",
+        "• 核心技术文",
+        "• 技术传承成",
+        "• 私钥丢失：加密货",
+        "• 数据灾难：云端核",
+        "• 算法污染：核心AI",
+        "• 数字资产备",
+        "• 私钥/密码安",
+        "• 数据完整性",
+        "• 技术停滞：行业技",
+        "• 技术代际落",
+        "• 投入不足：研发投",
+        "• 人才断层：技术团",
+        "• 研发投入占",
+        "• 技术团队平",
+        "• 路径锁定：掌握旧",
+        "• 创新者窘境：因现",
+        "• 生态更替：整个技",
+        "• 颠覆性技术",
+        "• 现有技术路",
+        "• 新技术生态",
+        "• 单点故障：核心系",
+        "• 技术债累积：长期",
+        "• 供应链攻击：关键",
+        "• 系统架构复",
+        "• 技术债务比",
+        "• 第三方依赖",
+        "• AI失控：自主AI系",
+        "• 基因污染：基因编",
+        "• 隐私灭绝：数据滥",
+        "• 技术伦理审",
+        "• 高风险技术",
+        "• 隐私数据泄",
+        "•",
+        "•",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "6-6.4-监测预警体系",
+      "major": "6",
+      "num": "6.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 4409,
+      "end_line": 4445,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.5-主动防御策略增强归因导向",
+      "major": "6",
+      "num": "6.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 4446,
+      "end_line": 4456,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.6-核心传导路径与共振风险增强归因分析",
+      "major": "6",
+      "num": "6.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 4551,
+      "end_line": 4554,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.6.1-技术奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "6",
+      "num": "6.6.1",
+      "title": "技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "kind": "num",
+      "start_line": 4555,
+      "end_line": 4595,
+      "roles": [
+        "D-Det",
+        "T-Term"
+      ],
+      "edges": [
+        {
+          "src": "技术",
+          "dst": "财务",
+          "src_detail": "核心技术断层",
+          "dst_detail": "资产价值湮灭",
+          "k": [
+            "Kₘ=1",
+            "Kₘ=1",
+            "K₁=0.75",
+            "K₂=1.50"
+          ],
+          "multipliers": [],
+          "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+        },
+        {
+          "src": "技术",
+          "dst": "事件",
+          "src_detail": "数字资产湮灭",
+          "dst_detail": "运营中断诉讼",
+          "k": [
+            "Kₘ=1",
+            "K₁=0.75",
+            "K₂=1.50"
+          ],
+          "multipliers": [],
+          "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+        },
+        {
+          "src": "技术",
+          "dst": "财务",
+          "src_detail": "系统架构崩溃",
+          "dst_detail": "业务收入归零",
+          "k": [
+            "K₁=0.75",
+            "K₂=1.50"
+          ],
+          "multipliers": [],
+          "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.6.2-技术奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "6",
+      "num": "6.6.2",
+      "title": "技术奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "kind": "num",
+      "start_line": 4596,
+      "end_line": 4639,
+      "roles": [
+        "C-Con",
+        "A-Amp"
+      ],
+      "edges": [
+        {
+          "src": "认知/文化",
+          "dst": "财务",
+          "src_detail": "规则共 识崩溃",
+          "dst_detail": "价值湮灭",
+          "k": [],
+          "multipliers": [
+            1.6,
+            1.5
+          ],
+          "context": "6.6.2 技术奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径\n注：此类路径中，技术奇点通常不是起点，而是传导过程中的关键节点。\n原始传导路径\n加入技术放大/传导效应后的变化\n放大/传\n导系数\n技术奇\n点类型\n后果\n人物奇点（失能）→ 权\n力奇点（真空）\n技术依赖（传导通道）使权力真\n空影响放大，因技术系统只有该\n人掌握\n×1.7（传\n导）\n核心技\n术断层\n从个人健康问题演变为技术\n系统和权力的双重危机\n认知/文化奇点（规则共\n识崩溃）→ 财务奇点\n（价值湮灭）\n技术伦理失控（放大器）加剧价\n值毁灭，因技术滥用导致法律惩\n罚\n×1.6（放\n大）\n技术伦\n理失控\n从文化缺陷传导至具体技术\n滥用，导致财务和法律双重\n打击\n决策奇点（战略误判）→\n时间奇点（窗口关闭）\n技术代际落差（传导通道）加速\n窗口关闭，因技术落后无法抓住\n机会\n×1.5（传\n导）\n技术代\n际落差\n从战略错误传导至技术落\n后，最终错过市场窗口"
+        },
+        {
+          "src": "权力/决策",
+          "dst": "时间",
+          "src_detail": "战略误判",
+          "dst_detail": "窗口关闭",
+          "k": [],
+          "multipliers": [
+            1.5
+          ],
+          "context": "。\n原始传导路径\n加入技术放大/传导效应后的变化\n放大/传\n导系数\n技术奇\n点类型\n后果\n人物奇点（失能）→ 权\n力奇点（真空）\n技术依赖（传导通道）使权力真\n空影响放大，因技术系统只有该\n人掌握\n×1.7（传\n导）\n核心技\n术断层\n从个人健康问题演变为技术\n系统和权力的双重危机\n认知/文化奇点（规则共\n识崩溃）→ 财务奇点\n（价值湮灭）\n技术伦理失控（放大器）加剧价\n值毁灭，因技术滥用导致法律惩\n罚\n×1.6（放\n大）\n技术伦\n理失控\n从文化缺陷传导至具体技术\n滥用，导致财务和法律双重\n打击\n决策奇点（战略误判）→\n时间奇点（窗口关闭）\n技术代际落差（传导通道）加速\n窗口关闭，因技术落后无法抓住\n机会\n×1.5（传\n导）\n技术代\n际落差\n从战略错误传导至技术落\n后，最终错过市场窗口"
+        }
+      ],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.6.3-高危共振风险增强归因分析",
+      "major": "6",
+      "num": "6.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 4640,
+      "end_line": 4655,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.7-双层归因分析框架在技术奇点的应用",
+      "major": "6",
+      "num": "6.7",
+      "title": "双层归因分析框架在技术奇点的应用",
+      "kind": "num",
+      "start_line": 4747,
+      "end_line": 4747,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.7.1-归因分析的特殊性",
+      "major": "6",
+      "num": "6.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 4748,
+      "end_line": 4749,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.7.2-归因分析流程",
+      "major": "6",
+      "num": "6.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 4756,
+      "end_line": 4782,
+      "roles": [
+        "D-Det",
+        "T-Term"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "6-6.7.3-归因分析案例",
+      "major": "6",
+      "num": "6.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 4783,
+      "end_line": 4795,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "80%"
+      ],
+      "bullet_candidates": [
+        "- 技术奇点：核心推荐算法源代码未文档化，只有创始人掌握（风险值85）",
+        "- 人物奇点：创始人突发心梗去世（风险值90，引爆点D-Det）",
+        "- 财务奇点：企业估值一周内下跌80%（风险值85）",
+        "- 认知/文化奇点监测数据："
+      ]
+    },
+    {
+      "id": "6-6.8-正向韧性构建学习与进化飞轮增强归因视角",
+      "major": "6",
+      "num": "6.8",
+      "title": "正向韧性构建：学习与进化飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 4844,
+      "end_line": 4898,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 技术培训投入产",
+        "• 新技术采纳速度",
+        "• 技术趋势预测准",
+        "• 系统迭代速度",
+        "• 架构现代化指数",
+        "• 技术债务变化率",
+        "• 外部合作项目数",
+        "• 开放式创新贡献",
+        "• 生态网络中心度"
+      ]
+    },
+    {
+      "id": "7-7.3-八大类别模型增强归因标记",
+      "major": "7",
+      "num": "7.3",
+      "title": "八大类别模型（增强归因标记）",
+      "kind": "num",
+      "start_line": 4973,
+      "end_line": 5258,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        ">5%",
+        ">10%",
+        ">2",
+        "<5年",
+        "<50%",
+        ">50%",
+        "<1.0",
+        ">60%",
+        "<90天",
+        "<30%",
+        ">20\n%",
+        ">1",
+        ">5分",
+        ">72\n小时",
+        ">20%",
+        ">30%"
+      ],
+      "bullet_candidates": [
+        "• 资产归属规则改写：资产",
+        "• 市场准入规则改写：通过",
+        "• 人身安全规则改写：地区",
+        "• 受制裁国家业务/",
+        "• 冲突地区资产暴",
+        "• 地缘政治风险指",
+        "• 价值创造规则改写：旧技",
+        "• 竞争规则改写：行业被动",
+        "• 技术代际落差指",
+        "• 研发投入效能",
+        "• 技能规则改写：原有核心",
+        "• 颠覆性技术监测",
+        "• 合法性规则改写：原有商",
+        "• 成本规则改写：税收制度",
+        "• 准入规则改写：行业准入",
+        "• 政策敏感性分析",
+        "• 反垄断风险值",
+        "• 行业准入许可完",
+        "• 货币价值规则改写：恶性",
+        "• 信用规则改写：债务危机",
+        "• 增长规则改写：经济进入",
+        "• 短期债务覆盖率",
+        "• 总债务/总资产比",
+        "• 本币计价资产占",
+        "• 生存环境规则改写：气候",
+        "• 资产安全规则改写：重大",
+        "• 资源获取规则改写：关键",
+        "• 战略资源储备周",
+        "• 能源/水资源自给",
+        "• 核心资产位于高",
+        "• 资产控制规则改写：跨境",
+        "• 经营资格规则改写：刑事",
+        "• 偿付规则改写：集体诉讼",
+        "• 重大未决诉讼潜",
+        "• 证券违法/商业贿",
+        "• 继承人争议历史",
+        "• 社会许可规则改写：品牌",
+        "• 客户关系规则改写：\"黑天",
+        "• 人才吸引规则改写：优秀",
+        "• 舆论绑架风险值",
+        "• 舆情危机修复速",
+        "• 品牌美誉度/信任",
+        "• 所有权规则改写：恶意收",
+        "• 人力资源规则改写：核心",
+        "• 知识产权规则改写：商业",
+        "• 股权结构脆弱性",
+        "• 关键人员/服务商",
+        "• 网络安全事件导",
+        "•",
+        "•"
+      ]
+    },
+    {
+      "id": "7-7.4-监测预警体系",
+      "major": "7",
+      "num": "7.4",
+      "title": "监测预警体系",
+      "kind": "num",
+      "start_line": 5259,
+      "end_line": 5298,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.5-主动防御策略增强归因导向",
+      "major": "7",
+      "num": "7.5",
+      "title": "主动防御策略（增强归因导向）",
+      "kind": "num",
+      "start_line": 5299,
+      "end_line": 5309,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.6-核心传导路径与共振风险增强归因分析",
+      "major": "7",
+      "num": "7.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 5421,
+      "end_line": 5421,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.6.1-事件奇点作为外部引爆点d-det的传导路径",
+      "major": "7",
+      "num": "7.6.1",
+      "title": "事件奇点作为外部引爆点（D-Det）的传导路径",
+      "kind": "num",
+      "start_line": 5422,
+      "end_line": 5462,
+      "roles": [
+        "D-Det"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.6.2-事件奇点通过内部脆弱性放大传导",
+      "major": "7",
+      "num": "7.6.2",
+      "title": "事件奇点通过内部脆弱性放大传导",
+      "kind": "num",
+      "start_line": 5463,
+      "end_line": 5509,
+      "roles": [
+        "R-Init"
+      ],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.6.3-高危共振风险增强归因分析",
+      "major": "7",
+      "num": "7.6.3",
+      "title": "高危共振风险（增强归因分析）",
+      "kind": "num",
+      "start_line": 5510,
+      "end_line": 5524,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.7-双层归因分析框架在事件奇点的应用",
+      "major": "7",
+      "num": "7.7",
+      "title": "双层归因分析框架在事件奇点的应用",
+      "kind": "num",
+      "start_line": 5600,
+      "end_line": 5600,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.7.1-归因分析的特殊性",
+      "major": "7",
+      "num": "7.7.1",
+      "title": "归因分析的特殊性",
+      "kind": "num",
+      "start_line": 5601,
+      "end_line": 5602,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.7.2-归因分析流程",
+      "major": "7",
+      "num": "7.7.2",
+      "title": "归因分析流程",
+      "kind": "num",
+      "start_line": 5611,
+      "end_line": 5631,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": []
+    },
+    {
+      "id": "7-7.7.3-归因分析案例",
+      "major": "7",
+      "num": "7.7.3",
+      "title": "归因分析案例",
+      "kind": "num",
+      "start_line": 5642,
+      "end_line": 5651,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [
+        "60%"
+      ],
+      "bullet_candidates": [
+        "- 事件奇点：家族主要业务所在国突然被国际制裁（风险值95，引爆点D-Det）",
+        "- 财务奇点：海外账户全部冻结，涉及资产占总资产60%（风险值90）",
+        "- 认知/文化奇点监测数据：",
+        "- 时间奇点：制裁前有6个月预警窗口但未采取行动（风险值75）"
+      ]
+    },
+    {
+      "id": "7-7.8-正向韧性构建感知与适应飞轮增强归因视角",
+      "major": "7",
+      "num": "7.8",
+      "title": "正向韧性构建：感知与适应飞轮（增强归因视角）",
+      "kind": "num",
+      "start_line": 5700,
+      "end_line": 5755,
+      "roles": [],
+      "edges": [],
+      "threshold_candidates": [],
+      "bullet_candidates": [
+        "• 预警准确率",
+        "• 预警提前时间",
+        "• 感知系统投入回报率",
+        "• 危机响应成功率",
+        "• 战略调整速度",
+        "• 韧性指数提升率",
+        "• 生态伙伴数量和质量",
+        "• 危机时获得的外部支",
+        "• 网络中心度指数"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "block_id": "1-1.6-核心传导路径与共振风险增强归因分析",
+      "major": "1",
+      "num": "1.6",
+      "title": "核心传导路径与共振风险（增强归因分析）",
+      "src": "人物",
+      "dst": "权力/决策",
+      "src_detail": "失智",
+      "dst_detail": "战略误判",
+      "k": [],
+      "multipliers": [],
+      "context": "1.6 核心传导路径与共振风险（增强归因分析）\n主要传导路径（按归因方向分类）\n传导路径\n传导\n模式\n传导系数\n(K)\n起点角色\n终点\n角色\n归因层级变化\n典型场景\n人物作为根源性初始点（R-\nInit）\n人物奇点（失智）→ 决策奇点\n（战略误判）\n线性"
+    },
+    {
+      "block_id": "2-2.6.1-认知文化奇点作为根源性初始点r-init的传导路径",
+      "major": "2",
+      "num": "2.6.1",
+      "title": "认知/文化奇点作为根源性初始点（R-Init）的传导路径",
+      "src": "认知/文化",
+      "dst": "权力/决策",
+      "src_detail": "价值认同崩溃",
+      "dst_detail": "战略分歧",
+      "k": [],
+      "multipliers": [],
+      "context": "2.6.1 认知/文化奇点作为根源性初始点（R-Init）的传导路径\n传导路径\n传导\n模式\n传导系数\n(K)\n起点\n角色\n终点角色\n归因层\n级变化\n典型场景\n认知奇点（价值认同崩溃）\n→ 决策奇点（战略分歧）\n线性"
+    },
+    {
+      "block_id": "2-2.6.2-认知文化奇点作为核心放大器a-amp的传导路径",
+      "major": "2",
+      "num": "2.6.2",
+      "title": "认知/文化奇点作为核心放大器（A-Amp）的传导路径",
+      "src": "财务",
+      "dst": "事件",
+      "src_detail": "流动性枯竭",
+      "dst_detail": "债权人诉讼",
+      "k": [],
+      "multipliers": [
+        1.5,
+        1.8,
+        1.6
+      ],
+      "context": "2.6.2 认知/文化奇点作为核心放大器（A-Amp）的传导路径\n\n\n==================== PAGE 16/88 ====================\n注：此类路径中，认知奇点不作为起点，而是作为传导过程中的效应放大器。\n原始传导路径\n加入认知放大器后的效应\n放大\n系数\n放大器作用点\n后果\n财务奇点（流动性枯竭）→\n事件奇点（债权人诉讼）\n信任纽带崩溃使内部无法\n团结应对，加速外部诉讼\n×1.5\n在财务→事件路径\n中叠加信任崩溃\n从可协商的债务危机\n演变为不可逆的法律\n清算\n人物奇点（失能）→ 权力\n奇点（真空）\n规则共识崩溃使应急授权\n机制失效，真空期延长\n×1.8\n在人物→权力路径\n中叠加规则混乱\n从有预案的权力过渡\n演变为无政府的混乱\n状态\n技术奇点（落后）→ 财务\n奇点（价值湮灭）\n价值认同崩溃使家族拒绝\n变革，错过技术转型窗口\n×1.6\n在技术→财务路径\n中叠加价值僵化\n从技术性落后演变为\n战略性淘汰"
+    },
+    {
+      "block_id": "3-3.6.1-权力决策奇点作为根源性初始点r-init的传导路径",
+      "major": "3",
+      "num": "3.6.1",
+      "title": "权力/决策奇点作为根源性初始点（R-Init）的传导路径",
+      "src": "权力/决策",
+      "dst": "财务",
+      "src_detail": "权力结构扭 曲",
+      "dst_detail": "资源配置失 衡",
+      "k": [],
+      "multipliers": [],
+      "context": "3.6.1 权力/决策奇点作为根源性初始点（R-Init）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角色\n归因层\n级变化\n典型场景\n权力/决策奇点（权力结构扭\n曲）→ 财务奇点（资源配置失\n衡）\n线性"
+    },
+    {
+      "block_id": "3-3.6.2-权力决策奇点作为引爆点d-det的传导路径",
+      "major": "3",
+      "num": "3.6.2",
+      "title": "权力/决策奇点作为引爆点（D-Det）的传导路径",
+      "src": "权力/决策",
+      "dst": "财务",
+      "src_detail": "战略方向误判",
+      "dst_detail": "巨额亏损",
+      "k": [
+        "K₁=0.78",
+        "K₂=1.56",
+        "Kₘ=1"
+      ],
+      "multipliers": [],
+      "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+    },
+    {
+      "block_id": "3-3.6.2-权力决策奇点作为引爆点d-det的传导路径",
+      "major": "3",
+      "num": "3.6.2",
+      "title": "权力/决策奇点作为引爆点（D-Det）的传导路径",
+      "src": "权力/决策",
+      "dst": "时间",
+      "src_detail": "时机把握失衡",
+      "dst_detail": "窗口关闭",
+      "k": [
+        "Kₘ=1"
+      ],
+      "multipliers": [],
+      "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+    },
+    {
+      "block_id": "3-3.6.2-权力决策奇点作为引爆点d-det的传导路径",
+      "major": "3",
+      "num": "3.6.2",
+      "title": "权力/决策奇点作为引爆点（D-Det）的传导路径",
+      "src": "权力/决策",
+      "dst": "技术",
+      "src_detail": "资源配置失衡",
+      "dst_detail": "研发停滞",
+      "k": [],
+      "multipliers": [],
+      "context": "3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点角\n色\n归因层\n级变化\n典型场景\n权力/决策奇点（战略方向误判）→\n财务奇点（巨额亏损）\n非线\n性\nK₁=0.78;\nK₂=1.56\nD-Det\nD-Det\n1 → 1\n错误投资决策直接\n导致财务损失\n权力/决策奇点（时机把握失衡）→\n时间奇点（窗口关闭）\n突变\nKₘ=1\nD-Det\nA-\nAmp\n1 → 2\n决策延迟导致战略\n窗口永久关闭\n权力/决策奇点（资源配置失衡）→\n技术奇点（研发停滞）\n线性"
+    },
+    {
+      "block_id": "3-3.1-传导模式的科学定义与分类",
+      "major": "3",
+      "num": "3.1",
+      "title": "传导模式的科学定义与分类",
+      "src": "根源性",
+      "dst": "衍生性",
+      "src_detail": "",
+      "dst_detail": "",
+      "k": [
+        "K₂ = 2"
+      ],
+      "multipliers": [],
+      "context": "3.1 传导模式的科学定义与分类\n传导模式是描述风险在奇点之间扩散的动态行为模式。根据风险传导的速度、强度和可预测性，我们\n将传导模式分为三类：线性传导、非线性传导和突变传导。在双层归因框架下，每种传导模式都与特定的\n归因层级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100"
+    },
+    {
+      "block_id": "3-3.1-传导模式的科学定义与分类",
+      "major": "3",
+      "num": "3.1",
+      "title": "传导模式的科学定义与分类",
+      "src": "衍生性",
+      "dst": "衍生性",
+      "src_detail": "",
+      "dst_detail": "",
+      "k": [
+        "K₂ = 2"
+      ],
+      "multipliers": [],
+      "context": "3.1 传导模式的科学定义与分类\n传导模式是描述风险在奇点之间扩散的动态行为模式。根据风险传导的速度、强度和可预测性，我们\n将传导模式分为三类：线性传导、非线性传导和突变传导。在双层归因框架下，每种传导模式都与特定的\n归因层级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源"
+    },
+    {
+      "block_id": "3-3.1-传导模式的科学定义与分类",
+      "major": "3",
+      "num": "3.1",
+      "title": "传导模式的科学定义与分类",
+      "src": "衍生性",
+      "dst": "诱发性",
+      "src_detail": "",
+      "dst_detail": "",
+      "k": [],
+      "multipliers": [],
+      "context": "级和角色相关联。\n传导\n模式\n核心定义\n数学模型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源性/衍生性奇\n点（外部冲击引爆内部风险）\n突发性、不可预\n测、干预窗口极\n\n\n==================== PAGE 68/88 ====================\n无预警时间。"
+    },
+    {
+      "block_id": "3-3.1-传导模式的科学定义与分类",
+      "major": "3",
+      "num": "3.1",
+      "title": "传导模式的科学定义与分类",
+      "src": "根源性",
+      "dst": "根源性",
+      "src_detail": "",
+      "dst_detail": "",
+      "k": [],
+      "multipliers": [],
+      "context": "型\n在双层归因中的典型场景\n风险特征\n线性\n传导\n风险按照相对稳定的速率和比\n例在奇点间传导，具有较好的\n可预测性。\nΔR = R₀ × K₁ ×\n(1 - M)\n根源性奇点→衍生性奇点（第\n二层向第一层传导）\n衍生性奇点→衍生性奇点（第\n一层内部传导）\n渐进性、可预\n测、干预窗口宽\n非线\n性传\n导\n风险传导存在临界阈值，突破\n阈值后传导速度和强度急剧放\n大。\nΔR = R₀ × (K₁, K₂)\n× (1 - M)\nK₂ = 2×K₁（破T\n后）\n衍生性奇点→诱发性奇点（第\n一层向外部传导）\n根源性奇点→根源性奇点（第\n二层内部加速传导）\n阈值效应、加速\n放大、干预窗口\n窄\n突变\n传导\n风险在满足特定触发条件后瞬\n间爆发，传导速度极快，几乎\nR = min(R₀ + 100\n× Kₘ × (1 - M),\n诱发性奇点→根源性/衍生性奇\n点（外部冲击引爆内部风险）\n突发性、不可预\n测、干预窗口极\n\n\n==================== PAGE 68/88 ====================\n无预警时间。"
+    },
+    {
+      "block_id": "4-4.1-主要传导路径由内向外风险的产生过程",
+      "major": "4",
+      "num": "4.1",
+      "title": "主要传导路径（由内向外）：风险的产生过程",
+      "src": "根源性",
+      "dst": "衍生性",
+      "src_detail": "",
+      "dst_detail": "",
+      "k": [],
+      "multipliers": [],
+      "context": "4.1 主要传导路径（由内向外）：风险的产生过程\n根源性奇点 → 衍生性奇点 →（可能进一步触发）诱发性奇点\n示例：决策失误（权力/决策奇点）→ 财务亏损（财务奇点）→ 引发恶意收购（事件奇点）\n归因意义：这是风险从“病因”到“症状”再到“外部表现”的自然演化路径，是理解风险如何形成的正向逻辑。"
+    },
+    {
+      "block_id": "4-4.6.1-时间奇点作为锁死器a-lock和放大器a-amp的传导路径",
+      "major": "4",
+      "num": "4.6.1",
+      "title": "时间奇点作为锁死器（A-Lock）和放大器（A-Amp）的传导路径",
+      "src": "权力/决策",
+      "dst": "财务",
+      "src_detail": "战略误判",
+      "dst_detail": "亏损",
+      "k": [],
+      "multipliers": [
+        2.0,
+        1.7,
+        1.5
+      ],
+      "context": "为锁死器（A-Lock）和放大器（A-Amp）的传导路径\n注：时间奇点很少作为传导起点，更多是作为传导过程中的情境放大器。\n原始传导路径\n加入时间放大/锁死效应后的变化\n放大/锁\n死系数\n时间窗\n口类型\n后果\n人物奇点（失能）→ 权力\n奇点（真空）\n如果发生在代际传承窗口关闭后，\n真空期将无限延长且无法填补\n×1.8（锁\n死）\n代际传\n承窗口\n从有预案的权力过渡\n演变为彻底的权力崩\n塌\n\n\n==================== PAGE 29/88 ====================\n决策奇点（战略误判）→\n财务奇点（亏损）\n如果发生在战略机遇窗口关闭后，\n亏损将不可挽回且无法通过新机会\n弥补\n×2.0（锁\n死）\n战略机\n遇窗口\n从一次投资失败演变\n为行业出局的永久性\n损失\n认知奇点（规则共识崩\n溃）→ 财务奇点（资产击\n穿）\n如果发生在资产重构窗口关闭后，\n将面临无法规避的法律惩罚和税负\n×1.7（放\n大）\n资产重\n构窗口\n从可修复的结构缺陷\n演变为毁灭性的财务\n损失\n人物奇点（失和）→ 认知\n奇点（信任崩溃）\n如果发生在关系修复窗口关闭后，\n冲突将永久化且不可调解\n×1.5（锁\n死）\n关系修\n复窗口\n从暂时矛盾"
+    },
+    {
+      "block_id": "4-4.6.1-时间奇点作为锁死器a-lock和放大器a-amp的传导路径",
+      "major": "4",
+      "num": "4.6.1",
+      "title": "时间奇点作为锁死器（A-Lock）和放大器（A-Amp）的传导路径",
+      "src": "认知/文化",
+      "dst": "财务",
+      "src_detail": "规则共识崩 溃",
+      "dst_detail": "资产击 穿",
+      "k": [],
+      "multipliers": [
+        1.7,
+        1.5
+      ],
+      "context": "口类型\n后果\n人物奇点（失能）→ 权力\n奇点（真空）\n如果发生在代际传承窗口关闭后，\n真空期将无限延长且无法填补\n×1.8（锁\n死）\n代际传\n承窗口\n从有预案的权力过渡\n演变为彻底的权力崩\n塌\n\n\n==================== PAGE 29/88 ====================\n决策奇点（战略误判）→\n财务奇点（亏损）\n如果发生在战略机遇窗口关闭后，\n亏损将不可挽回且无法通过新机会\n弥补\n×2.0（锁\n死）\n战略机\n遇窗口\n从一次投资失败演变\n为行业出局的永久性\n损失\n认知奇点（规则共识崩\n溃）→ 财务奇点（资产击\n穿）\n如果发生在资产重构窗口关闭后，\n将面临无法规避的法律惩罚和税负\n×1.7（放\n大）\n资产重\n构窗口\n从可修复的结构缺陷\n演变为毁灭性的财务\n损失\n人物奇点（失和）→ 认知\n奇点（信任崩溃）\n如果发生在关系修复窗口关闭后，\n冲突将永久化且不可调解\n×1.5（锁\n死）\n关系修\n复窗口\n从暂时矛盾演变为永\n久性家族分裂"
+    },
+    {
+      "block_id": "5-5.6.1-财务奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "5",
+      "num": "5.6.1",
+      "title": "财务奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "src": "财务",
+      "dst": "认知/文化",
+      "src_detail": "资产价值湮灭",
+      "dst_detail": "信任破裂",
+      "k": [
+        "K₁=0.65",
+        "K₂=1.30",
+        "Kₘ=1"
+      ],
+      "multipliers": [],
+      "context": "5.6.1 财务奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点角\n色\n终点角\n色\n归因层\n级变化\n典型场景\n财务奇点（流动性枯竭）→ 事\n件奇点（债权人诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n无法支付到期债务，债\n权人立即起诉\n财务奇点（资产价值湮灭）→\n认知/文化奇点（信任破裂）\n非线\n性\nK₁=0.65;\nK₂=1.30\nT-\nTerm\nA-\nAmp\n1 → 2\n家族财富大幅缩水，成\n员相互指责，信任崩溃\n财务奇点（资产负债表击穿）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n个人资产被追索，核心\n\n\n==================== PAGE 36/88 ====================\n→ 人物奇点（失控）\n成员失去法律控制权"
+    },
+    {
+      "block_id": "5-5.6.2-财务奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "5",
+      "num": "5.6.2",
+      "title": "财务奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "src": "权力/决策",
+      "dst": "技术",
+      "src_detail": "战略误判",
+      "dst_detail": "研发不足",
+      "k": [],
+      "multipliers": [
+        1.4,
+        1.6,
+        1.5
+      ],
+      "context": "5.6.2 财务奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径\n注：此类路径中，财务奇点通常不是起点，而是传导过程中的关键节点。\n原始传导路径\n加入财务放大/传导效应后\n的变化\n放大/传\n导系数\n财务奇点类\n型\n后果\n决策奇点（战略误判）→\n技术奇点（研发不足）\n财务资源紧张（传导通道）\n导致研发投入削减，技术落\n后加剧\n×1.4\n（传\n导）\n资本成本失\n控/流动性\n紧张\n从战略错误传导至技术落\n后，财务问题成为关键传\n导节点\n人物奇点（失能）→ 权力\n奇点（真空）\n财务危机（放大器）加剧权\n力争夺，真空期延长\n×1.6\n（放\n大）\n流动性枯竭\n/债务螺旋\n从个人健康问题演变为全\n面的财务和权力危机\n认知/文化奇点（规则共识\n崩溃）→ 事件奇点（监管\n打击）\n财务不合规（传导通道）为\n监管打击提供具体证据\n×1.5\n（传\n导）\n资产负债表\n击穿\n从文化"
+    },
+    {
+      "block_id": "5-5.6.2-财务奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "5",
+      "num": "5.6.2",
+      "title": "财务奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "src": "认知/文化",
+      "dst": "事件",
+      "src_detail": "规则共识 崩溃",
+      "dst_detail": "监管 打击",
+      "k": [],
+      "multipliers": [
+        1.5
+      ],
+      "context": "导过程中的关键节点。\n原始传导路径\n加入财务放大/传导效应后\n的变化\n放大/传\n导系数\n财务奇点类\n型\n后果\n决策奇点（战略误判）→\n技术奇点（研发不足）\n财务资源紧张（传导通道）\n导致研发投入削减，技术落\n后加剧\n×1.4\n（传\n导）\n资本成本失\n控/流动性\n紧张\n从战略错误传导至技术落\n后，财务问题成为关键传\n导节点\n人物奇点（失能）→ 权力\n奇点（真空）\n财务危机（放大器）加剧权\n力争夺，真空期延长\n×1.6\n（放\n大）\n流动性枯竭\n/债务螺旋\n从个人健康问题演变为全\n面的财务和权力危机\n认知/文化奇点（规则共识\n崩溃）→ 事件奇点（监管\n打击）\n财务不合规（传导通道）为\n监管打击提供具体证据\n×1.5\n（传\n导）\n资产负债表\n击穿\n从文化缺陷传导至具体法\n律处罚，财务问题成为证\n据载体"
+    },
+    {
+      "block_id": "6-6.6.1-技术奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "6",
+      "num": "6.6.1",
+      "title": "技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "src": "技术",
+      "dst": "财务",
+      "src_detail": "核心技术断层",
+      "dst_detail": "资产价值湮灭",
+      "k": [
+        "Kₘ=1",
+        "Kₘ=1",
+        "K₁=0.75",
+        "K₂=1.50"
+      ],
+      "multipliers": [],
+      "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+    },
+    {
+      "block_id": "6-6.6.1-技术奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "6",
+      "num": "6.6.1",
+      "title": "技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "src": "技术",
+      "dst": "事件",
+      "src_detail": "数字资产湮灭",
+      "dst_detail": "运营中断诉讼",
+      "k": [
+        "Kₘ=1",
+        "K₁=0.75",
+        "K₂=1.50"
+      ],
+      "multipliers": [],
+      "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+    },
+    {
+      "block_id": "6-6.6.1-技术奇点作为引爆点d-det和终端节点t-term的传导路径",
+      "major": "6",
+      "num": "6.6.1",
+      "title": "技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径",
+      "src": "技术",
+      "dst": "财务",
+      "src_detail": "系统架构崩溃",
+      "dst_detail": "业务收入归零",
+      "k": [
+        "K₁=0.75",
+        "K₂=1.50"
+      ],
+      "multipliers": [],
+      "context": "6.6.1 技术奇点作为引爆点（D-Det）和终端节点（T-Term）的传导路径\n传导路径\n传导\n模式\n传导系数(K)\n起点\n角色\n终点\n角色\n归因层\n级变化\n典型场景\n技术奇点（核心技术断层）→\n财务奇点（资产价值湮灭）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n唯一掌握核心技术者离\n职，企业估值归零\n技术奇点（数字资产湮灭）→\n事件奇点（运营中断诉讼）\n突变\nKₘ=1\nD-Det\nD-Det\n1 → 1\n核心数据丢失导致服务\n中断，客户集体诉讼\n技术奇点（系统架构崩溃）→\n财务奇点（业务收入归零）\n非线\n性\nK₁=0.75;\nK₂=1.50\nD-Det\nD-Det\n1 → 1\n核心系统宕机，所有线\n上业务停摆"
+    },
+    {
+      "block_id": "6-6.6.2-技术奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "6",
+      "num": "6.6.2",
+      "title": "技术奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "src": "认知/文化",
+      "dst": "财务",
+      "src_detail": "规则共 识崩溃",
+      "dst_detail": "价值湮灭",
+      "k": [],
+      "multipliers": [
+        1.6,
+        1.5
+      ],
+      "context": "6.6.2 技术奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径\n注：此类路径中，技术奇点通常不是起点，而是传导过程中的关键节点。\n原始传导路径\n加入技术放大/传导效应后的变化\n放大/传\n导系数\n技术奇\n点类型\n后果\n人物奇点（失能）→ 权\n力奇点（真空）\n技术依赖（传导通道）使权力真\n空影响放大，因技术系统只有该\n人掌握\n×1.7（传\n导）\n核心技\n术断层\n从个人健康问题演变为技术\n系统和权力的双重危机\n认知/文化奇点（规则共\n识崩溃）→ 财务奇点\n（价值湮灭）\n技术伦理失控（放大器）加剧价\n值毁灭，因技术滥用导致法律惩\n罚\n×1.6（放\n大）\n技术伦\n理失控\n从文化缺陷传导至具体技术\n滥用，导致财务和法律双重\n打击\n决策奇点（战略误判）→\n时间奇点（窗口关闭）\n技术代际落差（传导通道）加速\n窗口关闭，因技术落后无法抓住\n机会\n×1.5（传\n导）\n技术代\n际落差\n从战略错误传导至技术落\n后，最终错过市场窗口"
+    },
+    {
+      "block_id": "6-6.6.2-技术奇点作为传导通道c-con和放大器a-amp的传导路径",
+      "major": "6",
+      "num": "6.6.2",
+      "title": "技术奇点作为传导通道（C-Con）和放大器（A-Amp）的传导路径",
+      "src": "权力/决策",
+      "dst": "时间",
+      "src_detail": "战略误判",
+      "dst_detail": "窗口关闭",
+      "k": [],
+      "multipliers": [
+        1.5
+      ],
+      "context": "。\n原始传导路径\n加入技术放大/传导效应后的变化\n放大/传\n导系数\n技术奇\n点类型\n后果\n人物奇点（失能）→ 权\n力奇点（真空）\n技术依赖（传导通道）使权力真\n空影响放大，因技术系统只有该\n人掌握\n×1.7（传\n导）\n核心技\n术断层\n从个人健康问题演变为技术\n系统和权力的双重危机\n认知/文化奇点（规则共\n识崩溃）→ 财务奇点\n（价值湮灭）\n技术伦理失控（放大器）加剧价\n值毁灭，因技术滥用导致法律惩\n罚\n×1.6（放\n大）\n技术伦\n理失控\n从文化缺陷传导至具体技术\n滥用，导致财务和法律双重\n打击\n决策奇点（战略误判）→\n时间奇点（窗口关闭）\n技术代际落差（传导通道）加速\n窗口关闭，因技术落后无法抓住\n机会\n×1.5（传\n导）\n技术代\n际落差\n从战略错误传导至技术落\n后，最终错过市场窗口"
+    }
+  ],
+  "stats": {
+    "block_count": 164,
+    "edge_count": 22,
+    "blocks_with_edges": 12
+  },
+  "notes": [
+    "This is a raw extraction layer intended for iterative refinement.",
+    "threshold_candidates and bullet_candidates are heuristic and not yet normalized."
+  ]
+}

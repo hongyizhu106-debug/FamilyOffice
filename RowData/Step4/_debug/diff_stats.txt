@@ -1,0 +1,4 @@
+width=1280
+height=11105
+mse≈5404.1527
+mean_abs≈35.0770

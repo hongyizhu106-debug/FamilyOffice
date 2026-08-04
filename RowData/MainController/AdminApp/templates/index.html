@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Module Control</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">RowData + MyFinancialProject</p>
+          <h1>Module Control Deck</h1>
+          <p class="subtitle">Run, monitor, and orchestrate core services and jobs in one place.</p>
+        </div>
+        <div class="hero-actions">
+          <button class="ghost" id="reload">Reload Config</button>
+          <button class="primary" id="refresh">Refresh Now</button>
+        </div>
+      </header>
+
+      <section class="grid" id="action-grid"></section>
+
+      <section class="logs">
+        <div class="logs-header">
+          <h2>Live Logs</h2>
+          <div class="logs-meta" id="logs-meta">Select a module to inspect</div>
+        </div>
+        <pre id="logs-output">No logs yet.</pre>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "generated_at": "",
+  "notes": "Optional per-indicator f(x) overrides. If a code has no override, default f(x)=100*clamp(x,0,1).",
+  "default": {
+    "type": "linear_percent"
+  },
+  "overrides": {
+    "EXAMPLE-CODE": {
+      "type": "piecewise_linear",
+      "points": [
+        [0.0, 0.0],
+        [0.5, 60.0],
+        [1.0, 100.0]
+      ]
+    },
+    "EXAMPLE-THRESHOLD": {
+      "type": "threshold",
+      "bands": [
+        {"max_x": 0.25, "score": 20},
+        {"max_x": 0.5, "score": 50},
+        {"max_x": 0.75, "score": 80},
+        {"max_x": 1.0, "score": 100}
+      ]
+    }
+  }
+}

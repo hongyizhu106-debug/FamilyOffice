@@ -1,0 +1,46 @@
+# === 客户数据（绝不提交）===
+RowData/Rubbish/
+RowData/Step1/Rubbish/
+RowData/Step1/Data/web_progress_*.json
+**/web_response_*.json
+**/web_progress_*.json
+**/web_reports/
+
+# === Python 环境 ===
+RowData/Step1/Env/
+.venv/
+.venv_ray/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === 核心算法源码（已编译为 .pyc 分发）===
+RowData/Step2/Constructor/singularity_engine.py
+RowData/Step4/report_generator.py
+RowData/Step4/report_spec.py
+
+# === 原始题库与跳题逻辑（proprietary）===
+RowData/Step1/Data/Question_bank.json
+RowData/Step1/Data/jump.json
+FamilyOfficeVersion2/
+
+# === 配置与密钥 ===
+.env
+*.env
+config.local.*
+
+# === 构建产物 ===
+RowData/_release/
+dist/
+build/
+*.spec
+
+# === Node.js 依赖 ===
+node_modules/
+npm-debug.log*
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+desktop.ini

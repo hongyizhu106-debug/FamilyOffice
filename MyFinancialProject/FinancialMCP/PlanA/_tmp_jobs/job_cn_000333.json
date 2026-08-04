@@ -1,0 +1,15 @@
+{
+  "report_id": "PLAN-A-TEST-000333",
+  "market": "CN",
+  "symbol": "000333.SZ",
+  "period": "20250930",
+  "statement_scope": "consolidated",
+  "currency": "CNY",
+  "compare": {
+    "mode": "auto_yoy"
+  },
+  "output": {
+    "out_dir": "./PlanA/_out",
+    "format": "pdf"
+  }
+}

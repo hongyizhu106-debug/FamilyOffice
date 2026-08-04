@@ -1,0 +1,1413 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>家族传承诊断报告（自动生成）</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== CSS变量定义区（按规范） ===== */
+    :root {
+            /* 主色调（高级中性色+金属点缀） */
+            --color-primary: #1a2b4a;        /* 深海军蓝 */
+            --color-secondary: #8b0000;      /* 深酒红 */
+            --color-accent-gold: #d4af37;   /* 鎏金 */
+            --color-accent-silver: #c0c0c0; /* 鎏银 */
+
+            /* 中性与背景 */
+            --color-ink: #0f172a;
+            --color-muted: #475569;
+            --color-paper: #ffffff;
+            --color-paper-2: #f8fafc;
+            --color-white: #ffffff;
+            --color-bg: #f8f5f0;           /* 象牙白（背景） */
+            --color-text-main: #2c2416;    /* 深墨（正文） */
+            --color-border: #e8e0d0;       /* 淡棕（边框） */
+            --color-light-gold: #f5e8aa;   /* 浅金（无风险） */
+            --color-copper: #d2691e;       /* 赤金（中风险） */
+            --color-deep-ink: #2c2416;     /* 深墨（极高风险） */
+            --color-safe: #1b7f3a;         /* 低风险（绿色） */
+
+            /* 字体 */
+            --font-serif: "Noto Serif SC", "STSong", "SimSun", serif;
+            --font-sans: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+            --font-display: "Playfair Display", "Times New Roman", serif;
+
+            /* 字号 */
+            --font-h1: clamp(2.0rem, 4.5vw, 2.6rem);
+            --font-h2: clamp(1.35rem, 2.5vw, 1.8rem);
+            --font-h3: clamp(1.10rem, 2.0vw, 1.25rem);
+            --font-h4: clamp(0.98rem, 1.6vw, 1.10rem);
+            --font-body: 1rem;
+            --font-small: 0.9rem;
+
+            /* 间距 */
+            --gap-xs: 8px;
+            --gap-sm: 16px;
+            --gap-md: 24px;
+            --gap-lg: 32px;
+            --gap-xl: 40px;
+
+            /* 边框与圆角 */
+            --border-radius: 8px;
+            --border-radius-lg: 12px;
+            --border-thin: 1px solid var(--color-accent-gold);
+            --border-soft: 1px solid var(--color-border);
+            --table-border: 1px solid rgba(212, 175, 55, 0.3);
+            --table-border-vertical: 1px solid rgba(232, 224, 208, 0.5);
+
+            /* 阴影 */
+            --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+            /* 组件色 */
+            --bg-soft: rgba(248, 245, 240, 0.8);
+            --bg-gold-soft: rgba(212, 175, 55, 0.10);
+            --bg-primary-soft: rgba(26, 43, 74, 0.10);
+
+            /* 线条/透明度（用于避免硬编码 rgba） */
+            --color-transparent: rgba(255, 255, 255, 0);
+            --color-primary-border: rgba(26, 43, 74, 0.18);
+            --color-line-dash: rgba(15, 23, 42, 0.12);
+            --color-chip-border: rgba(15, 23, 42, 0.16);
+            --color-chip-bg: rgba(15, 23, 42, 0.04);
+            --color-shadow-ink-06: rgba(15, 23, 42, 0.06);
+            --color-shadow-ink-08: rgba(15, 23, 42, 0.08);
+
+            /* 透明背景/边框（避免硬编码 rgba） */
+            --bg-white-soft: rgba(255, 255, 255, 0.6);
+            --bg-info: rgba(248, 245, 240, 0.6);
+            --bg-card-soft: rgba(248, 245, 240, 0.95);
+            --bg-danger-soft: rgba(139, 0, 0, 0.08);
+            --line-soft-black: rgba(0, 0, 0, 0.06);
+
+                /* photoSample override helpers (keep colors inside :root per Step4 rule) */
+                --photo-shadow-1: 0 1px 6px var(--color-shadow-ink-06);
+                --photo-shadow-2: 0 1px 10px var(--color-shadow-ink-08);
+                --photo-border: 1px solid var(--color-border);
+                --photo-cover-grad-top: rgba(26, 43, 74, 0.06);
+                --photo-cover-grad-bottom: rgba(255, 255, 255, 0.98);
+                --photo-pill-danger-border: rgba(139, 0, 0, 0.25);
+                --photo-pill-danger-bg: rgba(139, 0, 0, 0.06);
+                --photo-pill-primary-border: rgba(26, 43, 74, 0.22);
+                --photo-pill-primary-bg: rgba(26, 43, 74, 0.06);
+                --photo-table-head-sep: rgba(255, 255, 255, 0.08);
+                --photo-table-row-alt: rgba(26, 43, 74, 0.03);
+                --photo-kv-border: rgba(26, 43, 74, 0.12);
+                --photo-kv-k-bg: rgba(26, 43, 74, 0.04);
+                    --photo-primary-border-12: rgba(26, 43, 74, 0.12);
+                    --photo-subtitle-border: rgba(212, 175, 55, 0.35);
+    }
+
+          /* ===== 通用样式区 ===== */
+          html, body {
+            margin: 0;
+            padding: 0;
+            background: var(--color-bg);
+            color: var(--color-text-main);
+          }
+          body {
+            font-family: var(--font-sans);
+            line-height: 1.55;
+          }
+
+          .report-wrap {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 32px 18px 64px;
+          }
+
+          .card {
+            background: var(--color-paper);
+            border: var(--border-soft);
+            border-radius: var(--border-radius);
+            padding: var(--gap-lg);
+            box-shadow: var(--shadow-card);
+          }
+
+          /* ===== 组件样式区 ===== */
+          .cover {
+            background: linear-gradient(180deg, var(--bg-primary-soft), var(--color-transparent));
+            border: var(--border-soft);
+            border-radius: var(--border-radius-lg);
+            padding: var(--gap-lg);
+            margin-bottom: var(--gap-md);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+          }
+
+          /* 桌面端/平板端布局（首选） */
+          .cover-top-row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            margin-bottom: var(--gap-lg);
+            position: relative;
+            min-height: 80px;
+          }
+
+          .family-badge {
+            width: 80px;
+            height: 80px;
+            border-radius: 999px;
+            background: var(--color-primary);
+            border: 2px solid var(--color-accent-gold);
+            box-shadow: var(--shadow-card);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--color-white);
+            font-family: var(--font-display);
+            font-weight: 700;
+            letter-spacing: 0.6px;
+          }
+
+          .report-id {
+            font-family: var(--font-serif);
+            color: var(--color-accent-gold);
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+          }
+
+          .cover-meta {
+            margin: var(--gap-sm) 0 0;
+            color: var(--color-muted);
+            font-size: var(--font-small);
+          }
+
+          .diagnosis-info {
+            margin-top: var(--gap-sm);
+            padding: var(--gap-sm);
+            border: var(--border-thin);
+            border-radius: var(--border-radius);
+            background: var(--bg-info);
+            text-align: center;
+            font-size: var(--font-small);
+            color: var(--color-primary);
+            font-family: var(--font-sans);
+          }
+          .confidential {
+            display: inline-block;
+            margin-top: var(--gap-xs);
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: var(--border-thin);
+            background: var(--bg-danger-soft);
+            color: var(--color-secondary);
+            font-family: var(--font-serif);
+            letter-spacing: 0.4px;
+          }
+
+          h1 {
+            margin: 0 0 var(--gap-xs);
+            font-size: var(--font-h1);
+            letter-spacing: 0.4px;
+            font-family: var(--font-serif);
+            color: var(--color-primary);
+          }
+          .subtitle {
+            margin: 0;
+            color: var(--color-muted);
+            font-size: var(--font-small);
+          }
+
+          .module-title {
+            font-family: var(--font-serif);
+            font-size: var(--font-h3);
+            color: var(--color-primary);
+            padding-left: var(--gap-sm);
+            border-left: 4px solid var(--color-accent-gold);
+            margin: var(--gap-lg) 0 var(--gap-sm);
+            position: relative;
+          }
+
+          .submodule-title {
+            font-family: var(--font-serif);
+            font-size: var(--font-h4);
+            color: var(--color-primary);
+            margin: var(--gap-md) 0 var(--gap-sm);
+            font-weight: 600;
+          }
+
+          .module-label {
+            display: inline-block;
+            margin-right: var(--gap-sm);
+            padding: 3px 10px;
+            border-radius: 999px;
+            border: 1px solid var(--color-chip-border);
+            background: var(--color-chip-bg);
+            font-size: var(--font-small);
+            color: var(--color-muted);
+            vertical-align: middle;
+          }
+
+          .grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--gap-md); }
+          .kv { display: grid; grid-template-columns: 150px 1fr; gap: 8px 12px; }
+          .k { color: var(--color-muted); }
+          .v { font-weight: 600; }
+
+          .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: var(--gap-md) 0;
+            font-size: var(--font-small);
+            border: var(--table-border); /* 必须包含完整边框 */
+            background: var(--color-paper);
+          }
+          .data-table th,
+          .data-table td {
+            border: var(--table-border);
+            padding: var(--gap-sm);
+            vertical-align: top;
+          }
+          .data-table th {
+            background-color: var(--color-primary); /* 深海军蓝 */
+            color: var(--color-white); /* 象牙白 */
+            font-family: var(--font-serif);
+            text-align: center;
+            font-weight: 700;
+          }
+
+          .pill {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 999px;
+            border: var(--border-soft);
+            background: var(--color-chip-bg);
+            font-size: var(--font-small);
+            color: var(--color-muted);
+          }
+
+          .score {
+            font-size: 1.75rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            font-family: var(--font-display);
+          }
+
+          .muted { color: var(--color-muted); }
+          .small { font-size: var(--font-small); }
+
+          .toc a { color: inherit; text-decoration: none; }
+          .toc a:hover { text-decoration: underline; }
+          .toc-item {
+            display: flex;
+            justify-content: space-between;
+            gap: var(--gap-md);
+            padding: var(--gap-sm) 0;
+            border-bottom: 1px dashed var(--color-line-dash);
+          }
+
+          .toc-family {
+            font-family: var(--font-serif);
+            color: var(--color-accent-gold);
+            letter-spacing: 0.6px;
+            margin-bottom: var(--gap-sm);
+            text-align: right;
+          }
+
+          .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: var(--gap-sm) 0 0;
+          }
+          .toc-list li {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px dashed var(--color-line-dash);
+          }
+          .toc-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 999px;
+            background: var(--color-accent-gold);
+            display: inline-block;
+            margin-right: 10px;
+            flex: 0 0 auto;
+          }
+          .toc-left { display: flex; align-items: center; gap: 0; }
+
+          .legend {
+            margin-top: var(--gap-md);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: var(--gap-sm);
+          }
+          .legend-item {
+            border: var(--border-soft);
+            border-radius: var(--border-radius);
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--bg-white-soft);
+          }
+          .legend-swatch { width: 18px; height: 12px; border-radius: 3px; border: 1px solid var(--line-soft-black); }
+          .legend-text { font-family: var(--font-serif); color: var(--color-primary); }
+          .toc-title { font-weight: 650; }
+          .toc-hint { color: var(--color-muted); font-size: var(--font-small); }
+
+          /* 书信体问候区（P1） */
+          .greeting {
+            border: var(--border-thin);
+            border-radius: var(--border-radius);
+            padding: var(--gap-md);
+            background-color: var(--bg-card-soft);
+          }
+          .greet-salutation { text-align: left; font-family: var(--font-serif); }
+          .greet-body { text-indent: 2em; margin: var(--gap-sm) 0; }
+          .greet-sign { text-align: right; color: var(--color-accent-gold); font-family: var(--font-serif); }
+
+          /* 报告编制说明（特殊格式） */
+          .report-info-card {
+            border: var(--border-thin);
+            border-radius: var(--border-radius);
+            padding: var(--gap-md);
+            background-color: var(--bg-card-soft);
+          }
+              .copyright-info {
+                margin-top: var(--gap-md);
+                padding: var(--gap-sm);
+                font-size: 0.85rem;
+                color: var(--color-accent-gold);
+                letter-spacing: 0.5px;
+                line-height: 1.5;
+                font-family: var(--font-serif);
+                text-align: center;
+                border-top: 1px solid var(--color-border);
+              }
+              .copyright-info::before { content: "© "; }
+          .info-item {
+            margin-bottom: var(--gap-md);
+            text-align: center; /* 分行居中 */
+          }
+          .info-title {
+            font-family: var(--font-serif);
+            color: var(--color-secondary);
+            font-size: 1rem;
+            margin-bottom: var(--gap-xs);
+          }
+          .info-content {
+            font-family: var(--font-sans);
+            color: var(--color-primary);
+            font-size: var(--font-small);
+          }
+
+          /* ===== 响应式样式区 ===== */
+          @media (max-width: 768px) { /* 移动端 */
+            .cover-top-row {
+              flex-direction: column;
+              align-items: center;
+              gap: var(--gap-sm);
+            }
+            .report-id {
+              position: static;
+              text-align: center;
+              order: 2;
+            }
+            .grid { grid-template-columns: 1fr; }
+            .kv { grid-template-columns: 1fr; }
+            .legend { grid-template-columns: 1fr 1fr; }
+          }
+          @media (min-width: 769px) and (max-width: 1024px) { /* 平板端 */
+            .report-wrap { padding: 28px 16px 56px; }
+          }
+
+          /* ===== 打印样式区（必须包含） ===== */
+          @media print {
+            @page { size: A4; }
+            body { background: var(--color-paper); }
+            .report-wrap { padding: 0; }
+            .card, .cover { box-shadow: none; }
+            a { color: inherit; text-decoration: none; }
+
+            /* A4分页：每个模块单独起页 */
+            .a4-page { page-break-after: always; break-after: page; }
+            .a4-page:last-child { page-break-after: auto; break-after: auto; }
+
+            /* 避免标题落在页尾 */
+            .module-title, .submodule-title { break-inside: avoid; page-break-inside: avoid; }
+
+            /* 打印表格优化（允许分页且重复表头） */
+            thead { display: table-header-group; }
+            tfoot { display: table-footer-group; }
+            tr { break-inside: avoid; page-break-inside: avoid; }
+          }
+
+          /* ===== photoSample 版式覆写（更贴近截图样式：海军蓝 + 鎏金点缀） ===== */
+          body {
+            background: var(--color-bg);
+            color: var(--color-ink);
+          }
+
+          .report-wrap {
+            /* photoSample: content width ≈3172px @ 3x DPR => ~1058 CSS px */
+            max-width: 1058px;
+            padding: 28px 0 64px;
+          }
+
+          .page {
+            display: grid;
+            gap: 14px;
+          }
+
+          .card {
+            border: var(--photo-border);
+            box-shadow: var(--photo-shadow-1);
+          }
+
+          .cover {
+            border: var(--photo-border);
+            box-shadow: var(--photo-shadow-2);
+            background: linear-gradient(180deg, var(--photo-cover-grad-top), var(--photo-cover-grad-bottom));
+          }
+
+          .cover-top-row {
+            align-items: center;
+          }
+
+          .family-badge {
+            width: 44px;
+            height: 44px;
+            border-radius: 999px;
+            background: var(--color-ink);
+            color: var(--color-white);
+            display: grid;
+            place-items: center;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+          }
+
+          .report-id {
+            font-family: var(--font-sans);
+            color: var(--color-accent-gold);
+            font-weight: 600;
+            letter-spacing: 0.02em;
+          }
+
+          .cover h1 {
+            font-family: var(--font-serif);
+            letter-spacing: 0.06em;
+          }
+
+          .subtitle {
+            color: var(--color-muted);
+          }
+
+          .module-title {
+            font-family: var(--font-serif);
+            font-weight: 700;
+            color: var(--color-ink);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 14px;
+          }
+          .module-title::before {
+            content: "";
+            width: 5px;
+            height: 18px;
+            background: var(--color-accent-gold);
+            border-radius: 999px;
+            display: inline-block;
+          }
+
+          .submodule-title {
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 10px 12px;
+            border-radius: 8px;
+            border: 1px solid var(--photo-subtitle-border);
+            letter-spacing: 0.02em;
+          }
+
+          .toc-list li {
+            border-bottom: 1px dashed var(--color-primary-border);
+            padding: 10px 0;
+          }
+
+          .pill {
+            border: 1px solid var(--color-primary-border);
+            background: var(--bg-white-soft);
+          }
+
+          .cover-pills {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          .pill--danger {
+            border-color: var(--photo-pill-danger-border);
+            background: var(--photo-pill-danger-bg);
+            color: var(--color-secondary);
+            font-weight: 700;
+          }
+          .pill--primary {
+            border-color: var(--photo-pill-primary-border);
+            background: var(--photo-pill-primary-bg);
+            color: var(--color-primary);
+            font-weight: 700;
+          }
+
+          .score {
+            color: var(--color-secondary);
+            font-weight: 800;
+          }
+
+          .data-table {
+            border: 1px solid var(--photo-primary-border-12);
+            border-radius: 10px;
+            overflow: hidden;
+          }
+
+          .data-table thead th {
+            background: var(--color-primary);
+            color: var(--color-white);
+            border-right: 1px solid var(--photo-table-head-sep);
+          }
+
+          .data-table tbody tr:nth-child(even) td {
+            background: var(--photo-table-row-alt);
+          }
+
+          .kv {
+            border: 1px solid var(--photo-kv-border);
+            border-radius: 10px;
+            overflow: hidden;
+          }
+          .kv .k {
+            background: var(--photo-kv-k-bg);
+            color: var(--color-ink);
+          }
+
+          /* ===== 风险诊断可视化（极简条形） ===== */
+          .viz-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: var(--gap-sm);
+          }
+          .viz-row {
+            display: grid;
+            grid-template-columns: 180px 1fr 92px;
+            gap: 12px;
+            align-items: center;
+          }
+          .viz-label { font-weight: 600; color: var(--color-ink); }
+          .viz-bar {
+            --pct: 0%;
+            --bar-color: var(--color-border);
+            height: 12px;
+            background: var(--color-chip-bg);
+            border: 1px solid var(--photo-primary-border-12);
+            border-radius: 999px;
+            overflow: hidden;
+            position: relative;
+          }
+          .viz-fill {
+            height: 100%;
+            width: var(--pct);
+            background: var(--bar-color);
+            border-radius: 999px;
+          }
+          .viz-value {
+            font-weight: 800;
+            text-align: right;
+            letter-spacing: 0.2px;
+          }
+          @media (max-width: 720px) {
+            .viz-row { grid-template-columns: 1fr; }
+            .viz-value { text-align: left; }
+          }
+  </style>
+</head>
+<body>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <div class="report-wrap">
+    <!-- 模块1: 报告封面 -->
+    <div class="a4-page" data-page="m1">
+      <section class="cover" id="m1">
+        <div class="cover-top-row">
+          <div class="family-badge">朱</div>
+          <div class="report-id">PARTIAL-1Q-AFIX</div>
+        </div>
+        <h1>家族传承诊断报告（自动生成）</h1>
+        <p class="subtitle">道易天枢诊断系统 · 2026.Q1 · 2026-01-29 15:23:19</p>
+        <p class="cover-meta">
+          朱家族
+           · 受访者：朱先生
+          · 专属顾问团：道易天枢家族传承专家组
+        </p>
+      </section>
+    </div>
+
+    <!-- 模块2: 报告目录 -->
+    <div class="a4-page" data-page="m2">
+      <section class="card toc" id="m2">
+        <div class="module-title">报告目录</div>
+        <p class="muted small">目录展示 4 个核心模块 + 附录（不含封面）。</p>
+        <div class="toc-family">朱 FAMILY</div>
+
+        <div class="submodule-title" style="margin-top: var(--gap-sm);">核心模块</div>
+        <ul class="toc-list">
+          <li><a class="toc-left" href="#m3"><span class="toc-dot"></span><span class="toc-title">一、核心诊断摘要</span></a></li>
+          <li><a class="toc-left" href="#m5"><span class="toc-dot"></span><span class="toc-title">二、风险诊断可视化</span></a></li>
+          <li><a class="toc-left" href="#m6"><span class="toc-dot"></span><span class="toc-title">三、风险传导链路</span></a></li>
+          <li><a class="toc-left" href="#m9"><span class="toc-dot"></span><span class="toc-title">四、报告详细解读与核心启示</span></a></li>
+        </ul>
+
+        <div class="submodule-title" style="margin-top: var(--gap-md);">附录</div>
+        <ul class="toc-list">
+          <li><a class="toc-left" href="#m10"><span class="toc-dot"></span><span class="toc-title">附录：报告编制说明</span></a></li>
+        </ul>
+
+      <div class="submodule-title" style="margin-top: var(--gap-md);">优先级图例</div>
+      <p class="muted small">（仅显示颜色块+文字，不展示解释性文字）</p>
+      <div class="legend">
+        <div class="legend-item"><span class="legend-swatch" style="background: var(--color-secondary);"></span><span class="legend-text">P0 紧急干预</span></div>
+        <div class="legend-item"><span class="legend-swatch" style="background: var(--color-accent-gold);"></span><span class="legend-text">P1 机制搭建</span></div>
+        <div class="legend-item"><span class="legend-swatch" style="background: var(--color-accent-silver);"></span><span class="legend-text">P2 体系完善</span></div>
+        <div class="legend-item"><span class="legend-swatch" style="background: var(--color-primary);"></span><span class="legend-text">P3 韧性提升</span></div>
+      </div>
+      </section>
+    </div>
+
+    <!-- 模块3: 核心诊断摘要 -->
+    <div class="a4-page" data-page="m3">
+      <section class="card" id="m3">
+        <div class="module-title">核心诊断摘要</div>
+      <div class="greeting" style="margin-bottom: var(--gap-md);">
+        <div class="greet-salutation">致 朱家族核心成员：</div>
+        <div class="greet-body muted">基于道易天枢诊断系统诊断体系，结合朱家族传承特性，现将专属风险诊断报告呈现如下。</div>
+        <div class="greet-sign">道易天枢风险诊断专家团</div>
+      </div>
+      <div class="kv">
+        <div class="k">作答题数</div>
+        <div class="v">1/500</div>
+        
+          <div class="k">受访者</div>
+          <div class="v">朱先生</div>
+        
+        <div class="k">生成时间</div>
+        <div class="v">2026-01-29 15:23:19</div>
+      </div>
+
+      <div class="submodule-title" style="margin-top: var(--gap-md);">（二）核心风险总览</div>
+      
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>项目</th>
+              <th>结果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>整体风险系数</td>
+              <td><span class="score">25.0/100</span>（低风险）</td>
+            </tr>
+            <tr>
+              <td>核心奇点类型</td>
+              <td>
+                <div>人物奇点、财富奇点、关系奇点、事件奇点</div>
+                <div class="muted small" style="margin-top: 6px;">当前核心：—</div>
+              </td>
+            </tr>
+            <tr>
+              <td>致命共振风险</td>
+              <td>
+                
+                  <span>
+                    
+                      共振组合传导机制归因分析最终后果修复难度认知+权力/决策共振、
+                    
+                      的死亡螺旋高事件+人物共振、
+                    
+                      修复需要重构整个系统极高时间+人物共振
+                    
+                  </span>
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="submodule-title" style="margin-top: var(--gap-md);">（三）关键指标量化</div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>量化项</th>
+              <th>结果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>662指标达标率</td>
+              <td>
+                
+                  <span class="score">0.0%</span>
+                  （0/2）
+                  <span class="muted">（覆盖2项，占662项的0.3%）</span>
+                
+              </td>
+            </tr>
+            <tr>
+              <td>核心指标异常数</td>
+              <td>
+                
+                  
+                    <span class="score">0</span>
+                  
+                  <span class="muted">（高风险0，中风险0）</span>
+                
+              </td>
+            </tr>
+            <tr>
+              <td>传承人性指标</td>
+              <td>
+                
+                  <span class="score">0.0/100</span>
+                  <span class="muted">（人物奇点得分）</span>
+                
+              </td>
+            </tr>
+            <tr>
+              <td>传导风险特征</td>
+              <td>
+                
+                  <span class="muted">核心链路候选5条；其中放大链4条；核心传导总表命中12条；核心奇点=权力/决策 × 人物 × 财务</span>
+                
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="submodule-title" style="margin-top: var(--gap-md);">7类奇点得分明细</div>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>奇点类别</th>
+              <th>得分（100分制）</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td>人物奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>财务奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>事件奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>技术奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>时间奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>权力/决策奇点</td>
+              <td>25.0/100</td>
+            </tr>
+            
+            <tr>
+              <td>认知/文化奇点</td>
+              <td>0.0/100</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      
+      </section>
+    </div>
+
+    <!-- 模块5: 风险诊断可视化 -->
+    <div class="a4-page" data-page="m5">
+    <section class="card" id="m5">
+      <div class="module-title">风险诊断可视化</div>
+      <p class="muted">极简条形图：数值越高风险越高（高风险标红、低风险标绿）。</p>
+
+      
+        <div class="submodule-title" style="margin-top: var(--gap-sm);">整体风险系数</div>
+        
+        
+          
+        
+        <div class="viz-row" style="margin-top: 10px;">
+          <div class="viz-label">整体风险系数</div>
+          <div class="viz-bar" style="--pct: 25.0%; --bar-color: var(--color-accent-gold);">
+            <div class="viz-fill"></div>
+          </div>
+          <div class="viz-value" style="color: var(--color-accent-gold);">25.0/100</div>
+        </div>
+
+        <div class="submodule-title" style="margin-top: var(--gap-md);">7类奇点得分</div>
+        <div class="viz-list">
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">人物奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">财务奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">事件奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">技术奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">时间奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">权力/决策奇点</div>
+              <div class="viz-bar" style="--pct: 25.0%; --bar-color: var(--color-accent-gold);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-accent-gold);">25.0/100</div>
+            </div>
+          
+            
+            
+              
+            
+            <div class="viz-row">
+              <div class="viz-label">认知/文化奇点</div>
+              <div class="viz-bar" style="--pct: 0.0%; --bar-color: var(--color-safe);">
+                <div class="viz-fill"></div>
+              </div>
+              <div class="viz-value" style="color: var(--color-safe);">0.0/100</div>
+            </div>
+          
+        </div>
+      
+    </section>
+    </div>
+
+    <!-- 模块6: 风险传导链路 -->
+    <div class="a4-page" data-page="m6">
+    <section class="card" id="m6">
+      <div class="module-title">风险传导链路</div>
+      <p class="muted">本模块数据由 Step3 关系模型提供，Step4 仅负责渲染。</p>
+
+      <div class="submodule-title">（零）核心传导链路总表（含模式、系数、治理）</div>
+      
+      
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>链路</th>
+              <th>模式</th>
+              <th>K</th>
+              <th>临界/触发条件</th>
+              <th>治理节点</th>
+              <th>M</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>事件→财务</td>
+                <td class="muted">突变</td>
+                <td class="muted">Kₘ=1（触发后）</td>
+                <td class="muted">S=地缘制裁/重大诉讼</td>
+                <td>应急资金节点</td>
+                <td class="muted">0.90</td>
+              </tr>
+            
+              <tr>
+                <td>人物→权力/决策</td>
+                <td class="muted">突变</td>
+                <td class="muted">Kₘ=1（触发后）</td>
+                <td class="muted">S=核心成员失能/ 入狱</td>
+                <td>应急授权节点</td>
+                <td class="muted">0.92</td>
+              </tr>
+            
+              <tr>
+                <td>人物→权力/决策</td>
+                <td class="muted">突变传导</td>
+                <td class="muted">K=0→1.0</td>
+                <td class="muted">S=实控人债务违约</td>
+                <td>应急授权节点</td>
+                <td class="muted">0.82</td>
+              </tr>
+            
+              <tr>
+                <td>技术→财务</td>
+                <td class="muted">线性</td>
+                <td class="muted">0.70</td>
+                <td class="muted">无</td>
+                <td>技术迭代节点</td>
+                <td class="muted">0.75</td>
+              </tr>
+            
+              <tr>
+                <td>技术→财务</td>
+                <td class="muted">线性传导</td>
+                <td class="muted">K=0.55</td>
+                <td class="muted">无</td>
+                <td>技术迭代节点</td>
+                <td class="muted">0.60</td>
+              </tr>
+            
+              <tr>
+                <td>时间→财务</td>
+                <td class="muted">非线性</td>
+                <td class="muted">K₁=0.68; K₂=1.36</td>
+                <td class="muted">T=政策窗口期&lt;6 个月</td>
+                <td>资产重构节点</td>
+                <td class="muted">0.85</td>
+              </tr>
+            
+              <tr>
+                <td>时间→财务</td>
+                <td class="muted">非线性传导</td>
+                <td class="muted">K₁=0.60; K₂=1.20</td>
+                <td class="muted">T=政策窗口期&lt;6 个月</td>
+                <td>资产控制节点</td>
+                <td class="muted">0.70</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策→财务</td>
+                <td class="muted">线性</td>
+                <td class="muted">0.85</td>
+                <td class="muted">无</td>
+                <td>权力结构优化节点</td>
+                <td class="muted">0.83</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策→财务</td>
+                <td class="muted">线性传导</td>
+                <td class="muted">K=0.78</td>
+                <td class="muted">无</td>
+                <td>决策委员会节点</td>
+                <td class="muted">0.75</td>
+              </tr>
+            
+              <tr>
+                <td>权力×时间→财务</td>
+                <td class="muted">非线性共振</td>
+                <td class="muted">K₁=0.92; K₂=1.84 （R=1.3）</td>
+                <td class="muted">T=传承滞后超5年且股权集中度&gt;0.9</td>
+                <td>跨代治理节点</td>
+                <td class="muted">0.90</td>
+              </tr>
+            
+              <tr>
+                <td>认知/文化→权力/决策</td>
+                <td class="muted">线性</td>
+                <td class="muted">0.82</td>
+                <td class="muted">无</td>
+                <td>规则共识节点</td>
+                <td class="muted">0.82</td>
+              </tr>
+            
+              <tr>
+                <td>认知/文化→财务</td>
+                <td class="muted">非线性</td>
+                <td class="muted">K₁=0.50; K₂=1.00</td>
+                <td class="muted">T=家族共识率</td>
+                <td>D-Det文化凝聚节点</td>
+                <td class="muted">0.70</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+
+      <div class="submodule-title">（一）单链传导（示例链）</div>
+      
+      
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>链路</th>
+              <th>支撑次数</th>
+              <th>K示例</th>
+              <th>放大系数(最大)</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>权力/决策 → 财务</td>
+                <td>3</td>
+                <td class="muted">K₁=0.78; K₂=1.56; Kₘ=1</td>
+                <td class="muted">2.00</td>
+              </tr>
+            
+              <tr>
+                <td>财务 → 事件</td>
+                <td>1</td>
+                <td class="muted">—</td>
+                <td class="muted">1.80</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+
+      <div class="submodule-title" style="margin-top: var(--gap-md);">（二）多链传导（Top链路候选）</div>
+      
+      
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>链路</th>
+              <th>支撑次数</th>
+              <th>放大系数(最大)</th>
+              <th>示例上下文</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>权力/决策 → 财务</td>
+                <td>3</td>
+                <td class="muted">2.00</td>
+                <td class="muted">3.6.1 权力/决策奇点作为根源性初始点（R-Init）的传导路径
+传导路径
+传导
+模式
+传导系数(K)
+起点
+角色
+终点角色
+归因层
+级变化
+典型场景
+权力/决策奇点（权力结构扭
+曲）→ 财务奇点（资源配置失
+衡）
+线性</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策 → 技术</td>
+                <td>2</td>
+                <td class="muted">1.60</td>
+                <td class="muted">3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径
+传导路径
+传导
+模式
+传导系数(K)
+起点
+角色
+终点角
+色
+归因层
+级变化
+典型场景
+权力/决策奇点（战略方向误判）→
+财务奇点（巨额亏损）
+非线
+性
+K₁=0.78;
+K₂=1.56
+D-Det
+D-Det
+1 → 1
+错误投资决策直接
+导致财务损失
+权力/决策奇点（时机把握失衡）→
+时间奇点（窗口关闭）
+突变
+Kₘ=1
+D-Det
+A-
+Amp
+1 → 2
+决策延迟导致战略
+窗口永久关闭
+权力/决策奇点（资源配置失衡）→
+技术奇点（研发停滞）
+线性</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策 → 时间</td>
+                <td>2</td>
+                <td class="muted">1.50</td>
+                <td class="muted">3.6.2 权力/决策奇点作为引爆点（D-Det）的传导路径
+传导路径
+传导
+模式
+传导系数(K)
+起点
+角色
+终点角
+色
+归因层
+级变化
+典型场景
+权力/决策奇点（战略方向误判）→
+财务奇点（巨额亏损）
+非线
+性
+K₁=0.78;
+K₂=1.56
+D-Det
+D-Det
+1 → 1
+错误投资决策直接
+导致财务损失
+权力/决策奇点（时机把握失衡）→
+时间奇点（窗口关闭）
+突变
+Kₘ=1
+D-Det
+A-
+Amp
+1 → 2
+决策延迟导致战略
+窗口永久关闭
+权力/决策奇点（资源配置失衡）→
+技术奇点（研发停滞）
+线性</td>
+              </tr>
+            
+              <tr>
+                <td>财务 → 事件</td>
+                <td>1</td>
+                <td class="muted">1.80</td>
+                <td class="muted">2.6.2 认知/文化奇点作为核心放大器（A-Amp）的传导路径
+
+
+==================== PAGE 16/88 ====================
+注：此类路径中，认知奇点不作为起点，而是作为传导过程中的效应放大器。
+原始传导路径
+加入认知放大器后的效应
+放大
+系数
+放大器作用点
+后果
+财务奇点（流动性枯竭）→
+事件奇点（债权人诉讼）
+信任纽带崩溃使内部无法
+团结应对，加速外部诉讼
+×1.5
+在财务→事件路径
+中叠加信任崩溃
+从可协商的债务危机
+演变为不可逆的法律
+清算
+人物奇点（失能）→ 权力
+奇点（真空）
+规则共识崩溃使应急授权
+机制失效，真空期延长
+×1.8
+在人物→权力路径
+中叠加规则混乱
+从有预案的权力过渡
+演变为无政府的混乱
+状态
+技术奇点（落后）→ 财务
+奇点（价值湮灭）
+价值认同崩溃使家族拒绝
+变革，错过技术转型窗口
+×1.6
+在技术→财务路径
+中叠加价值僵化
+从技术性落后演变为
+战略性淘汰</td>
+              </tr>
+            
+              <tr>
+                <td>人物 → 权力/决策</td>
+                <td>1</td>
+                <td class="muted">—</td>
+                <td class="muted">1.6 核心传导路径与共振风险（增强归因分析）
+主要传导路径（按归因方向分类）
+传导路径
+传导
+模式
+传导系数
+(K)
+起点角色
+终点
+角色
+归因层级变化
+典型场景
+人物作为根源性初始点（R-
+Init）
+人物奇点（失智）→ 决策奇点
+（战略误判）
+线性</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+
+      <div class="submodule-title" style="margin-top: var(--gap-md);">（三）网络共振放大链（含放大器因子）</div>
+      
+      
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>链路</th>
+              <th>放大系数(最大)</th>
+              <th>支撑次数</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+              <tr>
+                <td>权力/决策 → 财务</td>
+                <td>2.00</td>
+                <td>3</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策 → 技术</td>
+                <td>1.60</td>
+                <td>2</td>
+              </tr>
+            
+              <tr>
+                <td>权力/决策 → 时间</td>
+                <td>1.50</td>
+                <td>2</td>
+              </tr>
+            
+              <tr>
+                <td>财务 → 事件</td>
+                <td>1.80</td>
+                <td>1</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      
+    </section>
+    </div>
+
+    <!-- 模块9: 报告详细解读与核心启示 -->
+    <div class="a4-page" data-page="m9">
+    <section class="card" id="m9">
+      <div class="module-title">报告详细解读与核心启示</div>
+      <p class="muted">用于将核心风险点与奇点类别进行叙事化解读（当前为结构占位）。</p>
+    </section>
+
+    </div>
+
+    <!-- 模块10: 报告编制说明 -->
+    <div class="a4-page" data-page="m10">
+    <section class="card" id="m10">
+      <div class="module-title">报告编制说明</div>
+      <div class="report-info-card">
+        <div class="info-item">
+          <div class="info-title">编制依据</div>
+          <div class="info-content">道易天枢诊断系统 · Step4《家族传承诊断报告标准化输出规范》与HTML转换规范</div>
+        </div>
+        <div class="info-item">
+          <div class="info-title">诊断团队</div>
+          <div class="info-content">道易天枢诊断专家组</div>
+        </div>
+        <div class="info-item" style="margin-bottom: 0;">
+          <div class="info-title">数据来源</div>
+          <div class="info-content">道易天枢诊断系统662项指标体系、公开披露信息、家族治理相关文件</div>
+        </div>
+      </div>
+      <div class="report-info-card" style="margin-top: var(--gap-sm);">
+        <div class="info-item">
+          <div class="info-title">免责声明</div>
+          <div class="info-content">本报告基于道易天枢诊断系统与公开信息分析生成，仅供使用者进行传承风险识别与管理参考，不构成任何法律、财务或投资建议。家族传承规划需结合实际情况动态调整，建议在专业机构协助下完成方案设计与落地执行。</div>
+        </div>
+        <div class="info-item">
+          <div class="info-title">版权声明</div>
+          <div class="info-content">本报告及其全部内容为道易世家家族传承中心的专有知识产权，受法律保护，严禁任何形式的复制、传播、公开或用于商业目的，违者将依法追究法律责任。</div>
+        </div>
+      </div>
+
+      <div class="copyright-info">道易世家家族传承中心 版权所有｜基于《道易天枢诊断系统》生成诊断报告｜版本号 V2.0</div>
+    </section>
+    </div>
+  </div>
+</body>
+</html>

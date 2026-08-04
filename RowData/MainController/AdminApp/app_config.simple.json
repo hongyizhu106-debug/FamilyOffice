@@ -1,0 +1,29 @@
+{
+  "logLineLimit": 200,
+  "actions": [
+    {
+      "id": "rowdata-start-web",
+      "label": "RowData Web",
+      "cwd": "MainController",
+      "command": ["cmd", "/c", "Start_Web.bat"],
+      "kind": "service"
+    },
+    {
+      "id": "rowdata-generate-report",
+      "label": "Generate Report (PHOTOSAMPLE-CURRENT)",
+      "cwd": "",
+      "command": [
+        "Step1\\Env\\Scripts\\python.exe",
+        "-m",
+        "Step4.report_generator",
+        "--input",
+        "Step1\\Rubbish\\web_response_20260126_085539.json",
+        "--out-dir",
+        "Step4\\_debug\\out",
+        "--report-id",
+        "PHOTOSAMPLE-CURRENT"
+      ],
+      "kind": "job"
+    }
+  ]
+}

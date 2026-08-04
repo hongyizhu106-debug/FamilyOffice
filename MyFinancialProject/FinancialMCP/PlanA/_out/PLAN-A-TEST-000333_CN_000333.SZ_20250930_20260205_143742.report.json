@@ -1,0 +1,170 @@
+{
+  "report_id": "PLAN-A-TEST-000333",
+  "market": "CN",
+  "symbol": "000333.SZ",
+  "input_period": "20250930",
+  "display_periods": [
+    "20250930",
+    "20241231",
+    "20231231"
+  ],
+  "generated_at_china": "20260205_143742",
+  "data_source": "eastmoney",
+  "analysis_text": "【PlanA 财务摘要】20250930（2025年三季报）\n- 营收：3,647.16亿（同比 13.85%）\n- 归母/净利润：378.83亿（同比 19.51%）\n- 经营现金流：570.66亿（同比 -5.31%）\n- 总资产：5,933.13亿（同比 4.61%）\n- 总负债：3,592.05亿（同比 3.56%）\n- 资产负债率：60.54%（较上年 -0.62pct）\n- 盈利能力：毛利率 —；净利率 10.39%；ROE 16.18%；ROA —\n- 偿债能力：流动比率 —；速动比率 —",
+  "periods": [
+    {
+      "period": "20250930",
+      "label": "2025年三季报",
+      "values": {
+        "period": "20250930",
+        "income": {
+          "revenue": 36471607.6,
+          "total_profit": 4585876,
+          "net_profit": 3788338.3
+        },
+        "balance": {
+          "total_assets": 59331300.3,
+          "total_liab": 35920530.3,
+          "equity": 23410770
+        },
+        "cashflow": {
+          "operating_cf": 5706608.5
+        },
+        "ratios": {
+          "debt_to_assets_pct": 60.54229406463894,
+          "current_ratio": null,
+          "quick_ratio": null,
+          "gross_margin_pct": null,
+          "net_margin_pct": 10.387088887192348,
+          "roe_pct": 16.182032030556876,
+          "roa_pct": null,
+          "basic_eps": null,
+          "diluted_eps": null,
+          "bps": null,
+          "ocfps": null
+        }
+      },
+      "yoy": {
+        "revenue_pct": 13.849326829738162,
+        "total_profit_pct": 19.428615760696076,
+        "net_profit_pct": 19.509280290925467,
+        "operating_cf_pct": -5.306008439809706,
+        "total_assets_pct": 4.613003694644702,
+        "total_liab_pct": 3.560759600383956,
+        "equity_pct": 6.269757592265979
+      },
+      "delta": {
+        "debt_to_assets_pct_points": -0.615148745802351,
+        "roe_pct_points": 1.7926840481128803,
+        "roa_pct_points": null,
+        "gross_margin_pct_points": null,
+        "net_margin_pct_points": 0.4919320035700103
+      },
+      "compare_period": "20240930"
+    },
+    {
+      "period": "20241231",
+      "label": "2024年年报",
+      "values": {
+        "period": "20241231",
+        "income": {
+          "revenue": 40908426.6,
+          "total_profit": 4668974.6,
+          "net_profit": 3853723.7
+        },
+        "balance": {
+          "total_assets": 60435185.3,
+          "total_liab": 37668446.2,
+          "equity": 22766739.1
+        },
+        "cashflow": {
+          "operating_cf": 6051157.2
+        },
+        "ratios": {
+          "debt_to_assets_pct": 62.32866832957323,
+          "current_ratio": null,
+          "quick_ratio": null,
+          "gross_margin_pct": null,
+          "net_margin_pct": 9.42036646307976,
+          "roe_pct": 16.926990216179007,
+          "roa_pct": null,
+          "basic_eps": null,
+          "diluted_eps": null,
+          "bps": null,
+          "ocfps": null
+        }
+      },
+      "yoy": {
+        "revenue_pct": 9.465757018245103,
+        "total_profit_pct": 15.921138735615514,
+        "net_profit_pct": 14.286213778288715,
+        "operating_cf_pct": 4.505774359639858,
+        "total_assets_pct": 24.342463801156832,
+        "total_liab_pct": 20.8334612851119,
+        "equity_pct": 30.618387533299064
+      },
+      "delta": {
+        "debt_to_assets_pct_points": -1.8100239094710986,
+        "roe_pct_points": -2.4189666996607926,
+        "roa_pct_points": null,
+        "gross_margin_pct_points": null,
+        "net_margin_pct_points": 0.3973398688938605
+      },
+      "compare_period": "20231231"
+    },
+    {
+      "period": "20231231",
+      "label": "2023年年报",
+      "values": {
+        "period": "20231231",
+        "income": {
+          "revenue": 37370980.4,
+          "total_profit": 4027716.3,
+          "net_profit": 3371993.5
+        },
+        "balance": {
+          "total_assets": 48603818.4,
+          "total_liab": 31173853.5,
+          "equity": 17429964.9
+        },
+        "cashflow": {
+          "operating_cf": 5790261.1
+        },
+        "ratios": {
+          "debt_to_assets_pct": 64.13869223904433,
+          "current_ratio": null,
+          "quick_ratio": null,
+          "gross_margin_pct": null,
+          "net_margin_pct": 9.0230265941859,
+          "roe_pct": 19.3459569158398,
+          "roa_pct": null,
+          "basic_eps": null,
+          "diluted_eps": null,
+          "bps": null,
+          "ocfps": null
+        }
+      },
+      "yoy": {
+        "revenue_pct": 8.099621882244401,
+        "total_profit_pct": 15.222687102798083,
+        "net_profit_pct": 14.097913997144218,
+        "operating_cf_pct": 67.06935876073943,
+        "total_assets_pct": 15.023577259066556,
+        "total_liab_pct": 15.189316585933565,
+        "equity_pct": 14.728335326942377
+      },
+      "delta": {
+        "debt_to_assets_pct_points": 0.0922855000176952,
+        "roe_pct_points": -0.10689155881856749,
+        "roa_pct_points": null,
+        "gross_margin_pct_points": null,
+        "net_margin_pct_points": 0.4743535387841664
+      },
+      "compare_period": "20221231"
+    }
+  ],
+  "note": {
+    "cn_money_unit_assumption": "CN金额字段默认单位为万元，展示转换为“亿”",
+    "us_money_unit_assumption": "US金额字段按原始数值展示并自动缩放(K/M/B)"
+  }
+}

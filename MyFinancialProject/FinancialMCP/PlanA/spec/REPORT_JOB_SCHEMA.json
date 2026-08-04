@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PlanAReportJob",
+  "type": "object",
+  "required": ["report_id", "market", "symbol", "period"],
+  "properties": {
+    "report_id": {
+      "type": "string",
+      "description": "报告标识，用于文件命名与追踪"
+    },
+    "market": {
+      "type": "string",
+      "enum": ["CN", "HK", "US"],
+      "description": "市场：CN(A股)、HK(港股)、US(美股)"
+    },
+    "symbol": {
+      "type": "string",
+      "description": "代码：CN用ts_code(如000001.SZ)，HK用ts_code(如00700.HK)，US用ticker(如NVDA)"
+    },
+    "period": {
+      "type": "string",
+      "description": "报告期，格式 YYYYMMDD（如20250930/20241231）"
+    },
+    "statement_scope": {
+      "type": "string",
+      "enum": ["consolidated", "parent"],
+      "default": "consolidated",
+      "description": "口径：合并/母公司（若数据源支持）"
+    },
+    "currency": {
+      "type": "string",
+      "default": "CNY",
+      "description": "币种（展示用）"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "out_dir": { "type": "string", "description": "输出目录" },
+        "format": { "type": "string", "enum": ["pdf"], "default": "pdf" }
+      }
+    },
+    "compare": {
+      "type": "object",
+      "description": "对比期（用于同比）；缺省时由 period 自动推导",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": ["auto_yoy", "manual"],
+          "default": "auto_yoy"
+        },
+        "compare_period": {
+          "type": "string",
+          "description": "手动指定对比期 YYYYMMDD"
+        }
+      }
+    }
+  }
+}

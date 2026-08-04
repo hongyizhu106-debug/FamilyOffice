@@ -1,0 +1,50 @@
+{
+  "logLineLimit": 400,
+  "actions": [
+    {
+      "id": "rowdata-start-web",
+      "label": "RowData Web",
+      "cwd": "MainController",
+      "command": ["cmd", "/c", "Start_Web.bat"],
+      "kind": "service"
+    },
+    {
+      "id": "rowdata-start-web-lan",
+      "label": "RowData Web (LAN)",
+      "cwd": "MainController",
+      "command": ["cmd", "/c", "Start_Web_LAN.bat"],
+      "kind": "service"
+    },
+    {
+      "id": "rowdata-generate-report",
+      "label": "Generate Report (PHOTOSAMPLE-CURRENT)",
+      "cwd": "",
+      "command": [
+        "Step1\\Env\\Scripts\\python.exe",
+        "-m",
+        "Step4.report_generator",
+        "--input",
+        "Step1\\Rubbish\\web_response_20260126_085539.json",
+        "--out-dir",
+        "Step4\\_debug\\out",
+        "--report-id",
+        "PHOTOSAMPLE-CURRENT"
+      ],
+      "kind": "job"
+    },
+    {
+      "id": "financialmcp-start-http",
+      "label": "FinancialMCP HTTP",
+      "cwd": "d:\\新建文件夹\\MyFinancialProject\\FinancialMCP",
+      "command": ["cmd", "/c", "start-http.bat"],
+      "kind": "service"
+    },
+    {
+      "id": "financialmcp-start-stdio",
+      "label": "FinancialMCP STDIO",
+      "cwd": "d:\\新建文件夹\\MyFinancialProject\\FinancialMCP",
+      "command": ["cmd", "/c", "start-stdio.bat"],
+      "kind": "service"
+    }
+  ]
+}

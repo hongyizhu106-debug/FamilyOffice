@@ -1,0 +1,35 @@
+{
+  "source_text": "D:\\RowData\\Step3\\_extracted_text\\step3_text.txt",
+  "roles": {
+    "unique": [
+      "A-Acc",
+      "A-Amp",
+      "A-Lock",
+      "C-Con",
+      "D-Det",
+      "R-Init",
+      "T-Term"
+    ],
+    "counts": {
+      "D-Det": 164,
+      "R-Init": 89,
+      "A-Amp": 22,
+      "C-Con": 21,
+      "A-Lock": 17,
+      "T-Term": 11,
+      "A-Acc": 1
+    }
+  },
+  "tokens": {
+    "unique": [
+      "K",
+      "K₁",
+      "K₂"
+    ],
+    "counts": {
+      "K₁": 42,
+      "K₂": 34,
+      "K": 29
+    }
+  }
+}

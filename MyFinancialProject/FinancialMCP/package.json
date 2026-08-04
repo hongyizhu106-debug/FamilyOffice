@@ -1,0 +1,23 @@
+{
+  "name": "financialmcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "FinanceMCP (MCP stdio + streamable HTTP server)",
+  "main": "./build/index.js",
+  "bin": {
+    "finance-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "start:stdio": "node ./build/index.js",
+    "start:http": "node ./build/httpServer.js",
+    "health": "node -e \"fetch('http://localhost:'+(process.env.PORT||3000)+'/health').then(r=>r.json()).then(j=>console.log(JSON.stringify(j,null,2))).catch(e=>{console.error(e);process.exitCode=1;})\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "cors": "2.8.5",
+    "dotenv": "16.5.0",
+    "express": "4.21.2",
+    "playwright": "^1.50.0"
+  }
+}
