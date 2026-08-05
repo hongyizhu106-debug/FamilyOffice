@@ -1,0 +1,29 @@
+# RowData — Python 依赖清单
+# 安装命令: pip install -r requirements.txt
+#
+# 注意：以下文件需从项目作者处单独获取（已从 Git 仓库排除）：
+#   RowData/Step2/Constructor/singularity_engine.py
+#   RowData/Step4/report_generator.py
+#   RowData/Step4/report_spec.py
+#   RowData/Step1/Data/Question_bank.json
+#   RowData/Step1/Data/jump.json
+
+# Web 框架
+flask>=3.0
+
+# PDF 生成 / 解析
+fpdf2>=2.7
+pymupdf>=1.24       # import fitz
+weasyprint>=62.0
+pdfplumber>=0.11
+
+# 数据处理
+pandas>=2.2
+openpyxl>=3.1
+
+# 模板引擎（flask 依赖，显式声明版本下限）
+jinja2>=3.1
+
+# AdminApp (MainController/AdminApp/) — 独立子服务
+fastapi>=0.111
+uvicorn[standard]>=0.30
